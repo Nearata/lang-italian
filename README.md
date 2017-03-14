@@ -3,7 +3,7 @@
 ## Installation
 
 ```shell
-composer require naga0ka/flarum-ext-japanese
+composer require nearata/flarum-ext-japanese
 ```
 
 The same command can be used to update independently, without updating anything else.
@@ -13,5 +13,5 @@ The same command can be used to update independently, without updating anything 
 If you get an error, please use the following command on Flarum root directory.
 
 ```shell
-composer remove naga0ka/flarum-ext-japanese
+composer remove nearata/flarum-ext-japanese
 ```
