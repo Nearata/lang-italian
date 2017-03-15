@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-italian1234",
+    "name": "nearata/flarum-ext-italian",
     "type": "flarum-extension",
     "description": "Italian language pack.",
     "keywords": ["locale"],
