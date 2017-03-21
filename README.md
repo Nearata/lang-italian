@@ -32,5 +32,10 @@ composer remove nearata/flarum-ext-italian
 * flarum-subscriptions
 * flarum-suspend
 * flarum-tags
+* flagrow-bazaar
+* flagrow-byobu
+* flagrow-upload
+* sijad-auth-steam
+* wiseclock-post-copyright
 
 Im using [validation.yml](https://github.com/caouecs/Laravel-lang/blob/master/src/it/validation.php) from [Laravel lang](https://github.com/caouecs/Laravel-lang/) and an adaption for config.js from [moment](https://github.com/moment/moment/blob/develop/locale/it.js)
