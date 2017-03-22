@@ -37,5 +37,9 @@ composer remove nearata/flarum-ext-italian
 * flagrow-upload
 * sijad-auth-steam
 * wiseclock-post-copyright
+* antoinefr-money
+* flagrow-passport
+* issyrocks12-twofactor
+* wiseclock-reply2see
 
 Im using [validation.yml](https://github.com/caouecs/Laravel-lang/blob/master/src/it/validation.php) from [Laravel lang](https://github.com/caouecs/Laravel-lang/) and an adaption for config.js from [moment](https://github.com/moment/moment/blob/develop/locale/it.js)
