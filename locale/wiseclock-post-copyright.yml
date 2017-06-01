@@ -32,5 +32,5 @@ wiseclock-post-copyright:
         prohibited: Ripubblicazione non consentito
       addition:
         title: Opzioni aggiuntive
-        help: "Aggiungi le opzioni che desideri utilizzando il formato <code>key,menu,ui</code> separati da un apostrofo. Ogni linea rappresenta una opzione. KEY è ID univoco di un opzione; MENU è la stringa visualizzata nell elenco a discesa; UI è la stringa inferiore di ogni post. Una linea valida deve essere simile a questa:"
+        help: "Aggiungi le opzioni che desideri utilizzando il formato <code>key,menu,ui</code> separati da un apostrofo. Ogni linea rappresenta una opzione. KEY Ã¨ ID univoco di un opzione; MENU Ã¨ la stringa visualizzata nell elenco a discesa; UI Ã¨ la stringa inferiore di ogni post. Una linea valida deve essere simile a questa:"
         notes: "Sei vuoi utilizzare una virgola nella stringa, assicurati di usare questo modo: <code>\\,</code>."

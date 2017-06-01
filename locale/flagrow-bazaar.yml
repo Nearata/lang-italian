@@ -6,13 +6,13 @@ flagrow-bazaar:
             title: Flagrow Bazaar
             field:
                 apiToken: API token
-                apiTokenDescription: API token è richiesto per accedere al Flagrow extension api. Se già impostato, sei pronto per iniziare!
+                apiTokenDescription: API token Ã¨ richiesto per accedere al Flagrow extension api. Se giÃ  impostato, sei pronto per iniziare!
         nav:
             title: Bazaar
             description: Il mercato delle estensioni.
         page:
             button:
-                more: Di più
+                more: Di piÃ¹
                 install: Installa
                 uninstall: Disinstalla
                 enable: Attiva

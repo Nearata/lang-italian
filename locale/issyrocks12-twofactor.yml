@@ -2,7 +2,7 @@ issyrocks12-twofactor:
   forum:
     accountlabel: Two Factor
     reloadmsg: Preparazione two factor... riapri il modale di Two Factor.
-    incorrect_2fa: Il codice inserito è errato
+    incorrect_2fa: Il codice inserito Ã¨ errato
     2fa_disabled: Autenticazione a due fattori disattivato con successo.
     2fa_enabled: Autenticazione a due fattori attivato con successo.
     remember_me_label: Ricordami
