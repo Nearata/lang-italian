@@ -4,7 +4,7 @@ antoinefr-money:
       title: Impostazioni
       moneyforpost: Denaro dato per un nuovo post
       moneyfordiscussion: Denaro dato per una nuova discussione
-      moneyname: Nome del denaro (ex: punti)
+      moneyname: "Nome del denaro (ex: punti)"
     permissions:
       edit_money_label: Modifica denaro
   forum:
@@ -12,5 +12,5 @@ antoinefr-money:
       money_button: Modifica denaro
     modal:
       title: "Modifica il denaro di: {username}"
-      current: Attuale :
+      current: "Attuale :"
       submit_button: => core.ref.save_changes

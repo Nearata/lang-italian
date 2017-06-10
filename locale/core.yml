@@ -354,7 +354,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Qualcuno ha modificato una discussione che ho iniziato
-      privacy_disclose_online_label: Permetti agli altri di vedere quanto sono online
+      privacy_disclose_online_label: Permetti agli altri di vedere quando sono online
       privacy_heading: Privacy
       title: => core.ref.settings
 
