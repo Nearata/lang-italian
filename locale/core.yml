@@ -43,6 +43,7 @@ core:
       home_page_heading: Home Page
       home_page_text: "Scegli la pagina che deve essere mostrata agli utenti prima di vedere il tuo forum. Se intendi utilizzare un valore personalizzato, utilizza il percorso relativo alla root del forum"
       saved_message: Le modifiche sono state salvate
+      show_language_selector_label: Mostra il selettore lingua
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Banner di Benvenuto
       welcome_banner_text: Configura il testo da visualizzare sul banner che apparirà su tutte le pagine. Usalo per accogliere gli ospiti sul tuo forum.
@@ -148,6 +149,7 @@ core:
       start_discussions_label: Inizia Discussioni
       view_discussions_label: Leggi le discussioni
       view_post_ips_label: Visualizza indirizzi IP del post
+      view_user_list_label: Visualizza lista utenti
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -230,7 +232,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Sembra che non ci sono discussioni qui.
+      empty_text: Non ci sono discussioni qui.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Segna come letto
       replied_text: "{username} ha risposto {ago}"
@@ -263,6 +265,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Amministrazione
+      back_to_index_tooltip: "Torna all'elenco delle discussioni"
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profilo
@@ -336,7 +339,7 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Inserisci un nuovo titolo per questa discussione
+      title: Rinomina Discussione
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
