@@ -7,15 +7,28 @@ flagrow-upload:
             success: Successo
             error: Errore
     admin:
+        templates:
+            image: Default image download template
+            image_description: >
+                "Mostra una miniatura dell'immagine e proxa il download attraverso php.
+                Permette la raccolta di statistiche e la protezione da hotlink."
+            file: Default file download template
+            file_description: >
+                Mostra il nome del file e alcune info generali. Proxa i download
+                attraverso php, permette la raccolta di statistiche e protezione hotlink.
+            image-preview: Complete image preview template
+            image-preview_description: >
+                "Mostra l'immagine completa in-line. Nessuna funzionalità di download,
+                le statistiche non sono raccolte e la protezione da hotlink è ignorata."
         permissions:
             upload_label: Carica file
+            download_label: Scarica file
         upload_methods:
             local: Locale
             aws-s3: Amazon S3
             imgur: Imgur
             ovh-svfs: OVH SVFS
         labels:
-            upload_method: Metodo di caricamento
             preferences:
                 title: Preferenze generali
                 max_file_size: Dimensione massima dei file (in kilobytes)
@@ -49,6 +62,12 @@ flagrow-upload:
                 username: Nome utente
                 password: Password
                 region: Regione
+            disable-hotlink-protection:
+                title: Disattiva protezione hotlink
+                toggle: Disattiva
+            disable-download-logging:
+                title: Disattiva log degli scaricamenti
+                toggle: Disattiva
         buttons:
             save: Salva impostazioni
         help_texts:
@@ -58,6 +77,10 @@ flagrow-upload:
                 Configura la mappatura qui. Ogni singolo
                 tipo di mime sarà gestito da un adattatore di
                 caricamento specifico.
+            download_templates: >
+                I modelli di scaricamento servono per cambiare il modo
+                di come i caricamenti vengono visualizzati sul tuo forum,
+                es come le anteprime, tasti. Attualmente disponibili:
             resize: >
                 Qui puoi decidere se ridimensionare le tue immagini
                 prima che vengano caricate. Puoi impostare le dimensioni
@@ -68,3 +91,10 @@ flagrow-upload:
                 Qui puoi decidere se aggiungere un Watermark alle tue
                 immagini. Il Watermark sarà aggiunto a tutte le immagini
                 non GIF seguendo le impostazioni che inserirai qui sotto
+            disable-hotlink-protection: >
+                "La protezione da hotlink impedisci l'apertura dei dowload da altri siti.
+                Il metodo attuale richiede un token csrf e id del post."
+            disable-download-logging: >
+                Disattiva la registrazione di ogni download effettuato dagli utenti del
+                tuo forum. Rimanendolo attivo ti permette di visualizzare il numero di
+                download e altre metriche in futuro.
