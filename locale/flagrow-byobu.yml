@@ -7,6 +7,7 @@ flagrow-byobu:
             add_recipients: Destinatari
             submit: OK
             edit_recipients: Modifica Destinatari
+            send_pd: "Invia un messaggio a {username}"
         labels:
             recipients: "{count} Destinatario|{count} Destinatari"
             user_deleted: -cancellato-
