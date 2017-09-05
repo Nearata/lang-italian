@@ -1,4 +1,4 @@
-# Italian Language Pack for Flarum (beta6)
+# Italian Language Pack for Flarum (beta7)
 
 ## Installation
 
