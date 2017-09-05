@@ -10,16 +10,16 @@ flagrow-upload:
         templates:
             image: Default image download template
             image_description: >
-                "Mostra una miniatura dell'immagine e proxa il download attraverso php.
-                Permette la raccolta di statistiche e la protezione da hotlink."
+                Mostra una miniatura dell'immagine e proxa il download attraverso php.
+                Permette la raccolta di statistiche e la protezione da hotlink.
             file: Default file download template
             file_description: >
                 Mostra il nome del file e alcune info generali. Proxa i download
                 attraverso php, permette la raccolta di statistiche e protezione hotlink.
             image-preview: Complete image preview template
             image-preview_description: >
-                "Mostra l'immagine completa in-line. Nessuna funzionalità di download,
-                le statistiche non sono raccolte e la protezione da hotlink è ignorata."
+                Mostra l'immagine completa in-line. Nessuna funzionalità di download,
+                le statistiche non sono raccolte e la protezione da hotlink è ignorata.
         permissions:
             upload_label: Carica file
             download_label: Scarica file
@@ -92,9 +92,9 @@ flagrow-upload:
                 immagini. Il Watermark sarà aggiunto a tutte le immagini
                 non GIF seguendo le impostazioni che inserirai qui sotto
             disable-hotlink-protection: >
-                "La protezione da hotlink impedisci l'apertura dei dowload da altri siti.
-                Il metodo attuale richiede un token csrf e id del post."
+                La protezione da hotlink impedisce l'apertura dei dowload da altri siti.
+                Il metodo attuale richiede un token csrf e id del post.
             disable-download-logging: >
                 Disattiva la registrazione di ogni download effettuato dagli utenti del
-                tuo forum. Rimanendolo attivo ti permette di visualizzare il numero di
+                tuo forum. Lasciandolo attivo ti permette di visualizzare il numero di
                 download e altre metriche in futuro.
