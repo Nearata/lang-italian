@@ -10,8 +10,6 @@ The same command can be used to update independently, without updating anything 
 
 ## Uninstall
 
-If you get an error, please use the following command on Flarum root directory.
-
 ```shell
 composer remove nearata/flarum-ext-italian
 ```
@@ -41,5 +39,3 @@ composer remove nearata/flarum-ext-italian
 * flagrow-passport
 * issyrocks12-twofactor
 * wiseclock-reply2see
-
-Im using [validation.yml](https://github.com/caouecs/Laravel-lang/blob/master/src/it/validation.php) from [Laravel lang](https://github.com/caouecs/Laravel-lang/) and an adaption for config.js from [moment](https://github.com/moment/moment/blob/develop/locale/it.js)
