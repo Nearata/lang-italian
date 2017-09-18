@@ -44,7 +44,7 @@ flarum-flags:
     # These translations are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_button: Elimina Segnalazione
-      flagged_by_text: "{username} segnalato"
+      flagged_by_text: "Segnalato da {username}"
       flagged_by_with_reason_text: "{username} è stato segnalato per {reason}"
 
     # These translations are used by the post control buttons.
