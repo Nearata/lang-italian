@@ -17,12 +17,12 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} ha messo mi piace al tuo messaggio"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} ha messo mi piace al tuo messaggio|{username} hanno messo mi piace al tuo messaggio"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: Mi piace
-      liked_by_self_text: "{users} hai messo mi piace.|{users} avete messo mi piace."  # Can be pluralized to agree with the number of users!
+      liked_by_self_text: "{users} hai messo mi piace.|{users} hanno messo mi piace."  # Can be pluralized to agree with the number of users!
       liked_by_text: "{users} ha messo mi piace.|{users} hanno messo mi piace."
       others_link: => core.ref.some_others
       unlike_link: Non mi piace
@@ -30,8 +30,8 @@ flarum-likes:
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Gli utenti a cui piace
+      title: Utenti a cui piace il messaggio
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: A qualcuno piacciono i miei messaggi
+      notify_post_liked_label: A qualcuno piace un mio messaggio
