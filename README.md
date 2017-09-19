@@ -16,20 +16,8 @@ composer remove nearata/flarum-ext-italian
 
 ## Supported Extensions:
 
-* flarum-akismet
-* flarum-approval
-* flarum-auth-facebook
-* flarum-auth-github
-* flarum-auth-twitter
-* flarum-flags
-* flarum-likes
-* flarum-lock
-* flarum-mentions
-* flarum-pusher
-* flarum-sticky
-* flarum-subscriptions
-* flarum-suspend
-* flarum-tags
+Flarum core extensions plus
+
 * flagrow-bazaar
 * flagrow-byobu
 * flagrow-upload
