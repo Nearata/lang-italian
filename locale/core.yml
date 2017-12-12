@@ -50,14 +50,7 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Questo <strong>software beta</strong> viene rilasciato in primo luogo per aiutarci a testarlo e renderlo migliore; non dovrebbe essere utilizzato in produzione."
-      contributing_text: "Vuoi cercare bug e contribuire?  Leggi la <a>Documentazione per contribuire</a>."
-      extension_text: "Interessato a sviluppare estensioni? Leggi la <a>Documentazione per creare estensioni</a>."
-      features_text: "Hai un idea per migliorare una caratteristica? Parlacene nel canale <a>Caratteristiche</a>."
-      support_text: "Trovato un bug? Segnalacelo nel nostro forum, nel canale <a>Supporto</a>."
-      troubleshooting_text: "Stai riscontrando problemi? Segui le istruzioni nella Documentazione <a>Risoluzione dei Problemi</a>."
-      version_text: "Grazie per aver installato Flarum! Stai utilizzando la versione {version}."
-      welcome_text: "Benvenuto su Flarum Beta!"
+      help_link: Ricevi Aiuto
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -383,7 +376,7 @@ core:
       joined_date_text: "Si è iscritto {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
-      posts_link: Messaggi
+      posts_link: => core.ref.posts
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -441,18 +434,31 @@ core:
     discussion:
       next_page_button: => core.ref.next_page
       previous_page_button: Pagina precedente
+    
+    error:
+      403_message: Non sei autorizzato ad accedere a questa pagina.
+      404_message: La pagina che hai richiesto non esiste.
+      404_return_link: "Ritorna su {forum}"
+      500_message: Si è verificato un errore durante il caricamento di questa pagina.
+      503_message: "{forum} è in manutenzione. Ritonerà operativo il prima possibile!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Sei sicuro di voler eseguire il log out su {forum}?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
+    reset_password:
       confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: Resetta la password
-      title: => core.ref.reset_your_password
+      new_password_label: Nuova Password
+      submit_button: => core.ref.save_changes
+      title: core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
@@ -513,7 +519,7 @@ core:
     confirmation_email_sent: "Abbiamo inviato una email di conferma a {email}. Se non arriva subito, controlla la cartella spam."
     delete: Cancella
     delete_forever: Cancella per sempre
-    discussions: Discussioni
+    discussions: Discussioni                     # Referenced by flarum-statistics.yml
     edit: Modifica
     email: Email
     load_more: Carica di più
@@ -524,6 +530,7 @@ core:
     notifications: Notifiche
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
+    posts: Messaggi                                 # Referenced by flarum-statistics.yml
     rename: Rinomina
     reply: Rispondi                                 # Referenced by flarum-mentions.yml
     reset_your_password: Ripristina la tua password
