@@ -41,7 +41,7 @@ core:
       forum_description_text: Inserisci una breve breve descrizione della tua comunità. Questo apparirà nel meta tag e sarà mostrato ai motori di ricerca
       forum_title_heading: Titolo del Forum
       home_page_heading: Home Page
-      home_page_text: "Scegli la pagina che deve essere mostrata agli utenti prima di vedere il tuo forum. Se intendi utilizzare un valore personalizzato, utilizza il percorso relativo alla root del forum"
+      home_page_text: "Scegli la pagina che deve essere mostrata agli utenti prima di vedere il tuo forum."
       saved_message: Le modifiche sono state salvate
       show_language_selector_label: Mostra il selettore lingua
       submit_button: => core.ref.save_changes
@@ -188,6 +188,7 @@ core:
       exit_full_screen_tooltip: Esci dal Full screen
       full_screen_tooltip: Full screen
       minimize_tooltip: Minimizza
+      preview_tooltip: Anteprima
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -370,7 +371,6 @@ core:
       avatar_remove_button: Rimuovi
       avatar_upload_button: Carica
       avatar_upload_tooltip: Carica un avatar
-      bio_placeholder: Scrivi qualcosa di te stesso
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Si è iscritto {ago}"
