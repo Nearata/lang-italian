@@ -46,14 +46,14 @@ flagrow-bazaar:
                 disable: Disattiva
                 update: Aggiorna
                 connect: Connetti
-                favorite_button: "Estenzione preferita"
-                remove_favorite_button: "Rimuovi l'estenzione dalla tua lista dei preferiti"
+                favorite_button: "Estensione preferita"
+                remove_favorite_button: "Rimuovi l'estensione dalla tua lista dei preferiti"
             extension:
                 installed: Estensione installata
                 enabled: Estensione attivata
                 vendor: Da {vendor}
                 favorited: Una delle tue preferite
-                outdated: "Estenzione obsoleta, aggiorna alla versione {new}"
+                outdated: "Estensione obsoleta, aggiorna alla versione {new}"
             task:
                 header:
                     status: Stato
@@ -79,7 +79,7 @@ flagrow-bazaar:
                     lastmonth: Ultimo mese
                     older: Più vecchio
         search:
-            placeholder: Cerca estenzione
-            filter_installed: Mostra solo le estenzioni installate
-            filter_update_required: Mostra solo le estenzioni con un aggiornamento disponibile
-            filter_favorited: Mostra solo le estenzioni preferite
+            placeholder: Cerca estensione
+            filter_installed: Mostra solo le estensioni installate
+            filter_update_required: Mostra solo le estensioni con un aggiornamento disponibile
+            filter_favorited: Mostra solo le estensioni preferite
