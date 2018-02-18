@@ -1,0 +1,45 @@
+flagrow-masquerade:
+    forum:
+        alerts:
+            profile-completion-required: >
+                Si prega di compilare i campi profilo necessari qui sotto.
+        buttons:
+            view-profile: Profilo
+            save-profile: Salva
+    admin:
+        buttons:
+            add-field: Aggiungi campo
+            edit-field: Modifica campo
+            delete-field: Cancella campo
+        permissions:
+            have-profile: Avere un profilo masquerade
+            view-profile: Vedere un profilo masquerade
+        menu:
+            description: >
+                Configura i campi del profilo utente.
+        fields:
+            add: Aggiungi campo {field}
+            edit: Modifica campo {field}
+            name: Nome campo
+            name-help: >
+                L'etichetta del campo visibile (non traducibile) pubblicamente.
+            description: Descrizione campo
+            description-help: >
+                Una descrizione facoltativa per spiegare l'uso/necessità di questo campo.
+            required: Campo obbligatorio
+            on_bio: Mostra risposta a questo campo in bio utente
+            validation: Validazione
+            validation-help: >
+                Controlla le <a>regole di convalida</a> supportate da Laravel. Es:
+                "string,min:5" o "url".
+            prefix: Prefisso campo
+            prefix-help: >
+                Mostra il tuo prefisso davanti ai valori inseriti dall'utente per questo campo.
+            icon: Icona
+            icon-help: >
+                Mostra un'icona davanti ai valori inseriti dall'utente. 
+                Per un riferimento sulle icone disponibili,
+                controlla il <a>sito di FontAwesome</a>. Usa "info" senza
+                il prefisso "fa-".
+            force-user-to-completion: Forza l'utente a completare il profilo
+            disable-user-bio: Disabilita il campo bio utente
