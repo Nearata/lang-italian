@@ -16,14 +16,14 @@ composer remove nearata/flarum-ext-italian
 
 ## Supported Extensions:
 
-Flarum core extensions plus
-
-* flagrow-bazaar
-* flagrow-byobu
-* flagrow-upload
-* sijad-auth-steam
-* wiseclock-post-copyright
-* antoinefr-money
-* flagrow-passport
-* issyrocks12-twofactor
-* wiseclock-reply2see
+| Flarum core plus |
+| --- |
+| antoinefr-money |
+| flagrow-bazaar |
+| flagrow-byobu |
+| flagrow-passport |
+| flagrow-upload |
+| issyrocks12-twofactor |
+| sijad-auth-steam |
+| wiseclock-post-copyright |
+| wiseclock-reply2see |
