@@ -16,14 +16,32 @@ composer remove nearata/flarum-ext-italian
 
 ## Supported Extensions:
 
-| Flarum core plus |
-| --- |
-| antoinefr-money |
-| flagrow-bazaar |
-| flagrow-byobu |
-| flagrow-passport |
-| flagrow-upload |
-| issyrocks12-twofactor |
-| sijad-auth-steam |
-| wiseclock-post-copyright |
-| wiseclock-reply2see |
+| **Bundled extensions** | |
+| --- | --- |
+| | flarum-akismet |
+| | flarum-approval |
+| | flarum-auth-facebook |
+| | flarum-auth-github |
+| | flarum-auth-twitter |
+| | flarum-flags |
+| | flarum-likes |
+| | flarum-lock |
+| | flarum-mentions |
+| | flarum-pusher |
+| | flarum-statistics |
+| | flarum-sticky |
+| | flarum-subscriptions |
+| | flarum-suspend |
+| | flarum-tags |
+| **Flagrow extensions** | |
+| | flagrow-bazaar |
+| | flagrow-byobu |
+| | flagrow-masquerade |
+| | flagrow-passport |
+| | flagrow-upload |
+| **Other extensions** | |
+| | antoinefr-money |
+| | issyrocks12-twofactor |
+| | sijad-auth-steam |
+| | wiseclock-post-copyright |
+| | wiseclock-reply2see |
