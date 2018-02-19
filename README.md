@@ -43,5 +43,8 @@ composer remove nearata/flarum-ext-italian
 | | antoinefr-money |
 | | issyrocks12-twofactor |
 | | sijad-auth-steam |
+| | sijad-links |
+| | sijad-pages |
+| | sijad-recaptcha |
 | | wiseclock-post-copyright |
 | | wiseclock-reply2see |
