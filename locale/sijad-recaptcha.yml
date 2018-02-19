@@ -1,0 +1,18 @@
+sijad-recaptcha:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the reCAPTCHA Settings modal dialog.
+    recaptcha_settings:
+        sitekey_label: Chiave del sito
+        secret_label: Chiave segreta
+        title: reCAPTCHA Impostazioni
+
+# Translations in this namespace are used in validation
+validation:
+recaptcha: 'reCAPTCHA Convalida fallita, per favore riprova'
