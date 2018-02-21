@@ -34,10 +34,12 @@ composer remove nearata/flarum-ext-italian
 | | flarum-suspend |
 | | flarum-tags |
 | **Flagrow extensions** | |
+| | flagrow-ads |
 | | flagrow-bazaar |
 | | flagrow-byobu |
 | | flagrow-masquerade |
 | | flagrow-passport |
+| | flagrow-split |
 | | flagrow-upload |
 | **Other extensions** | |
 | | antoinefr-money |
@@ -49,3 +51,4 @@ composer remove nearata/flarum-ext-italian
 | | sijad-recaptcha |
 | | wiseclock-post-copyright |
 | | wiseclock-reply2see |
+| | xengine-signature |
