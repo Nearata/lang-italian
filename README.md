@@ -41,6 +41,7 @@ composer remove nearata/flarum-ext-italian
 | | flagrow-upload |
 | **Other extensions** | |
 | | antoinefr-money |
+| | avatar4eg-transliterator |
 | | issyrocks12-twofactor |
 | | sijad-auth-steam |
 | | sijad-links |
