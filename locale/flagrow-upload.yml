@@ -8,15 +8,15 @@ flagrow-upload:
             error: Errore
     admin:
         templates:
-            image: Default image download template
+            image: Modello di download dell'immagine predefinito
             image_description: >
                 Mostra una miniatura dell'immagine e proxa il download attraverso php.
                 Permette la raccolta di statistiche e la protezione da hotlink.
-            file: Default file download template
+            file: Modello di download del file predefinito
             file_description: >
                 Mostra il nome del file e alcune info generali. Proxa i download
                 attraverso php, permette la raccolta di statistiche e protezione hotlink.
-            image-preview: Complete image preview template
+            image-preview: Modello di anteprima dell'immagine completa
             image-preview_description: >
                 Mostra l'immagine completa in-line. Nessuna funzionalità di download,
                 le statistiche non sono raccolte e la protezione da hotlink è ignorata.
@@ -32,7 +32,7 @@ flagrow-upload:
             preferences:
                 title: Preferenze generali
                 max_file_size: Dimensione massima dei file (in kilobytes)
-                mime_types_allowed: Specifica i tipi MIME dei file che vuoi autorizzare, usando una espressione regolare
+                mime_types: Specifica i tipi MIME dei file che vuoi permettere, usando un espressione regolare
             resize:
                 title: Ridimensiona immagini
                 toggle: Ridimensiona immagini
