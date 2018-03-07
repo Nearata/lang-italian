@@ -34,13 +34,13 @@ composer remove nearata/flarum-ext-italian
 | | flarum-suspend |
 | | flarum-tags |
 | **Flagrow extensions** | |
-| | flagrow-ads |
-| | flagrow-bazaar |
-| | flagrow-byobu |
-| | flagrow-masquerade |
-| | flagrow-passport |
-| | flagrow-split |
-| | flagrow-upload |
+| | ads |
+| | bazaar |
+| | byobu |
+| | masquerade |
+| | passport |
+| | split |
+| | upload |
 | **Other extensions** | |
 | | antoinefr-money |
 | | avatar4eg-transliterator |
