@@ -4,6 +4,7 @@ flagrow-bazaar:
             is_loading: Elaborazione...
             error: Si è verificato un errore. Per ulteriori dettagli controlla la cronologia e i logs di Flarum.
             refresh: Ricarica pagina
+            close: Chiudi
             report_issue: Segnala un problema
         nav:
             title: Bazaar
