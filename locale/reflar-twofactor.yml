@@ -1,0 +1,37 @@
+reflar-twofactor:
+  forum:
+    text: "Inserisci questo codice per accedere al forum {forum}: {code}"
+    accountlabel: Autenticazione a due fattori
+    incorrect_2fa: Codice verifica errato
+    2fa_disabled: Autenticazione a due fattori disattivata.
+    2fa_enabled: Autenticazione a due fattori attivata.
+    email:
+      body: Ti confermiamo che hai attivato con successo l'Autenticazione a due fattori.
+      subject: Autenticazione a due fattori attivata sul tuo account
+    modal:
+      twofactor_title: Configurazione 2FA
+      heading: Impostazioni 2FA
+      switch: Autenticazione a due fattori
+      2fa_heading: Codice 2FA
+      helpQR: Scansiona il codice QR, oppure inserisci manualmente il codice nell'applicazione TOTP che stai usando.
+      helpPhone: 'Seleziona il tuo gestore, inserisci il tuo numero, poi clicca "Salva numero"'
+      submitPhone: Salva Numero
+      placeholder: one-time password
+      button: Invia
+      2fa_help: Inserisci il codice che hai ricevuto per SMS o generato dall'app
+      close: Ho salvato i codici di backup
+      recov: Codici di backup
+      login_title: Autenticazione a due fattori
+      recov_help1: Salva questi codici, non verranno mostrati una seconda volta!
+      recov_help2: Questo è l'unico modo che hai per accedere al tuo account nel caso dovessi perdere accesso al tuo cellulare / applicazione TOTP.
+      stPhone: Passa alla configurazione cellulare
+      stTOTP: Passa alla configurazione TOTP
+      back: Indietro
+  admin:
+      settings:
+        title: Impostazioni 2FA
+        help: Prendi il tuo Account SID e Auth Token da twilio.com/console, e non dimenticare il numero di cellulare da twilio.com/console/phone-numbers/incoming
+        enable: Attiva Twillio
+        sid: Twillio Account SID
+        token: Twillio Auth Token
+        number: Twillio Numero Cellulare
