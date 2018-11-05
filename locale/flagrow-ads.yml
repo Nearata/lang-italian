@@ -16,4 +16,4 @@ flagrow-ads:
             start-from-post: Specifica da quale messaggio iniziare a mostrare un annuncio
             between-n-posts: Specifica dopo quanti messaggi pubblicare un annuncio
         tab:
-        description: Imposta le preferenze e le posizioni degli annunci.
+            description: Imposta le preferenze e le posizioni degli annunci.
