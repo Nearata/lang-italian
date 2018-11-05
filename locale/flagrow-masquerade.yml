@@ -6,6 +6,13 @@ flagrow-masquerade:
         buttons:
             view-profile: Profilo
             save-profile: Salva
+        fields:
+            select:
+                none-optional: Nessuna opzione selezionata (opzionale)
+                none-required: Seleziona un opzione (obbligatorio)
+            boolean:
+                yes: Si
+                no: No
     admin:
         buttons:
             add-field: Aggiungi campo
@@ -37,9 +44,18 @@ flagrow-masquerade:
                 Mostra il tuo prefisso davanti ai valori inseriti dall'utente per questo campo.
             icon: Icona
             icon-help: >
-                Mostra un'icona davanti ai valori inseriti dall'utente. 
+                Mostra un'icona davanti ai valori inseriti dall'utente.
                 Per un riferimento sulle icone disponibili,
                 controlla il <a>sito di FontAwesome</a>. Usa "info" senza
                 il prefisso "fa-".
             force-user-to-completion: Forza l'utente a completare il profilo
             disable-user-bio: Disabilita il campo bio utente
+            options: Opzioni
+            option-new: Nuova opzione
+            option-coma-warning: L'etichetta di un opzione non può contenere virgole (",").
+        types:
+            advanced: Avanzate
+            boolean: Checkbox
+            email: E-mail
+            select: Dropdown
+            url: Url
