@@ -41,6 +41,10 @@ composer remove nearata/flarum-ext-italian
 | | passport |
 | | split |
 | | upload |
+| **Reflar extensions** | |
+| | koseki |
+| | twofactor |
+| | uncache |
 | **Other extensions** | |
 | | antoinefr-money |
 | | avatar4eg-transliterator |
