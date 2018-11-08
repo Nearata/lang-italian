@@ -1,0 +1,20 @@
+reflar-uncache:
+  admin:
+    page:
+      warning: Non è stato possibile pulire la cache di Cloudflare. La cache locale è stata pulita.
+      error: Non puoi pulire la cache due volte
+      title: Invalida Cache
+      helptext: Pulisci manualmente la cache, utile dopo aver aggiornato un estensione, o dopo aver aggiunto CSS personalizzato.
+      button: Pulisci Cache
+      success: Cache pulita con successo
+      cloudflare:
+        title: Impostazioni Cloudflare
+        enable: Attiva integrazione Cloudflare
+        zoneid: Zone ID
+        zoneid_help: Questo è l'id del tuo dominio che può essere trovato nel tab "Overview"
+        apikey: Chiave API
+        apikeyhelp: Puoi trovare la tua chiave API andando in "My Profile" (angolo alto-destra), scrolla giù e clicca il tasto "View" subito dopo "Global API Key"
+        email: E-mail
+        emailhelp: Inserisci qui l'email che usi per accedere a Cloudflare
+    nav:
+      desc: Invalida la cache, e configurazione per Cloudflare
