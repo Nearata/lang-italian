@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: Discussioni in rilievo
+      sticky_discussions_label: Mettere discussioni in rilievo
 
   # Translations in this namespace are used by the forum user interface.
   forum:

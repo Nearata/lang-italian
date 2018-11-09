@@ -58,4 +58,4 @@ flarum-flags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: Segnala Messaggio
-    flagged_posts: Messaggi Segnalati
+    flagged_posts: Segnalazioni

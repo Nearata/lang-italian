@@ -1,13 +1,13 @@
 flagrow-split:
     admin:
         permissions:
-            split_discussion_label: Dividi i messaggi dalle discussioni
+            split_discussion_label: Sposta i messaggi dalle discussioni
     forum:
         post:
-            was_split_to: "{count} messaggio è stato diviso nella discussione {target}.|{count} messaggi sono stati divisi nella discussione {target}."
-            was_split_from: "{count} messaggio è stato diviso dalla discussione {target}.|{count} messaggi sono stati divisi dalla discussione {target}."
+            was_split_to: "{count} messaggio è stato spostato nella discussione {target}.|{count} messaggi sono stati spostati nella discussione {target}."
+            was_split_from: "{count} messaggio è stato spostato dalla discussione {target}.|{count} messaggi sono stati spostati dalla discussione {target}."
         split:
-            from: Dividi da qui
+            from: Sposta da qui
             to: Fino a qui
         modal:
             title: Dividi discussione

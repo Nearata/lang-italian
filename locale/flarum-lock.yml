@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Discussioni Chiuse
+      lock_discussions_label: Chiudere le Discussioni
 
   # Translations in this namespace are used by the forum user interface.
   forum:

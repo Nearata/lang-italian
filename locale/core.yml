@@ -30,16 +30,16 @@ core:
       favicon_heading: Favicon
       favicon_text: Carica un'immagine da visualizzare come favicon
       logo_heading: Logo
-      logo_text: Carica un'immagine da visualizzare al posto del titolo del forum
+      logo_text: Carica un'immagine da visualizzare al posto del nome del forum
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Lingua di Default
-      forum_description_heading: Descrizione Forum
-      forum_description_text: Inserisci una breve breve descrizione della tua comunità. Questo apparirà nel meta tag e sarà mostrato ai motori di ricerca
-      forum_title_heading: Titolo del Forum
+      forum_description_heading: Descrizione del Forum
+      forum_description_text: Inserisci una breve descrizione della tua community. Verrà usato nel meta tag description e sarà mostrato ai motori di ricerca
+      forum_title_heading: Nome del Forum
       home_page_heading: Home Page
       home_page_text: "Scegli la pagina che deve essere mostrata agli utenti prima di vedere il tuo forum."
       saved_message: Le modifiche sono state salvate
@@ -110,13 +110,13 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: Aspetto
-      appearance_text: "Personalizza i colori, loghi e altre variabili del forum."
+      appearance_text: "Personalizza i colori, logo e altre variabili del forum."
       basics_button: Impostazioni di Base
       basics_text: "Imposta il titolo del forum, la lingua e altre impostazioni di base."
       dashboard_button: Dashboard
       dashboard_text: Il tuo forum a colpo d'occhio
       email_button: => core.ref.email
-      email_text: "Configura le impostazioni email del tuo forum"
+      email_text: "Configura le impostazioni e-mail del tuo forum"
       extensions_button: Estensioni
       extensions_text: Aggiungi funzionalità extra al tuo forum e rendilo tuo
       permissions_button: Permessi
@@ -126,23 +126,23 @@ core:
     permissions:
       allow_renaming_label: Consenti ridenominazione
       allow_post_editing_label: Consenti modifica post
-      create_heading: Crea
-      delete_discussions_forever_label: Eliminare discussioni per sempre
-      delete_discussions_label: Eliminare discussioni
-      delete_posts_forever_label: Eliminare post per sempre
-      edit_and_delete_posts_label: Modificare e cancellare post
+      create_heading: Creazione
+      delete_discussions_forever_label: Eliminare le discussioni per sempre
+      delete_discussions_label: Eliminare le discussioni
+      delete_posts_forever_label: Eliminare messaggi per sempre
+      edit_and_delete_posts_label: Modificare e cancellare messaggi
       global_heading: Globale
-      moderate_heading: Moderate
+      moderate_heading: Moderazione
       new_group_button: Nuovo Gruppo
-      participate_heading: Partecipa
-      read_heading: Leggere
-      rename_discussions_label: Rinominare discussioni
+      participate_heading: Partecipazione
+      read_heading: Lettura
+      rename_discussions_label: Rinominare le discussioni
       reply_to_discussions_label: Rispondere alle discussioni
       sign_up_label: Registrazione
       start_discussions_label: Inizia Discussioni
-      view_discussions_label: Leggi le discussioni
-      view_post_ips_label: Visualizza indirizzi IP del post
-      view_user_list_label: Visualizza lista utenti
+      view_discussions_label: Leggere le discussioni
+      view_post_ips_label: Visualizzare indirizzi IP del post
+      view_user_list_label: Visualizzare la lista utenti
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -185,29 +185,29 @@ core:
     # These translations are used by the composer controls.
     composer:
       close_tooltip: Chiuso
-      exit_full_screen_tooltip: Esci dal Full screen
-      full_screen_tooltip: Full screen
+      exit_full_screen_tooltip: Esci da Schermo intero
+      full_screen_tooltip: Schermo intero
       minimize_tooltip: Minimizza
       preview_tooltip: Anteprima
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Scrivi un post...
-      discard_confirmation: "Non hai postato la tua discussione. Desideri disfartene?"
-      submit_button: Posta Discussione
+      body_placeholder: Messaggio...
+      discard_confirmation: "Non hai creato la discussione. Desideri disfartene?"
+      submit_button: Crea Discussione
       title: => core.ref.start_a_discussion
-      title_placeholder: Titolo Discussione
+      title_placeholder: Titolo della Discussione
 
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Non hai salvato le tue modifiche. Desideri disfartene?"
-      post_link: "Post #{number} in {discussion}"
+      post_link: "Messaggio #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Non hai inviato la tua risposta. Desideri disfartene?"
+      discard_confirmation: "Sei sicuro di voler cancellare il messaggio?"
       posted_message: La tua risposta è stata pubblicata.
       submit_button: Pubblica Risposta
       view_button: Mostra
@@ -217,7 +217,7 @@ core:
       cannot_reply_button: Non puoi rispondere
       cannot_reply_text: Non hai il permesso di rispondere a questa discussione.
       delete_button: => core.ref.delete
-      delete_confirmation: "Sei sicuro di voler cancellare la discussione?"
+      delete_confirmation: "Sei sicuro di voler cancellare questa discussione? Questa azione è irreversibile."
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Effettua l'accesso per Rispondere
       rename_button: => core.ref.rename
@@ -263,7 +263,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profilo
-      search_placeholder: Cerca nel forum...
+      search_placeholder: Cerca...
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -298,7 +298,7 @@ core:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} ha cambiato il titolo"
-      empty_text: Nessuna notifica
+      empty_text: Non ci sono notifiche
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -434,7 +434,7 @@ core:
     discussion:
       next_page_button: => core.ref.next_page
       previous_page_button: Pagina precedente
-    
+
     error:
       403_message: Non sei autorizzato ad accedere a questa pagina.
       404_message: La pagina che hai richiesto non esiste.
@@ -446,7 +446,7 @@ core:
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
-      
+
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
@@ -513,21 +513,21 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Tutte le discussioni
-    change_email: Cambia email
+    change_email: Cambia e-mail
     change_password: Cambia password
     confirm_password: Conferma password
-    confirmation_email_sent: "Abbiamo inviato una email di conferma a {email}. Se non arriva subito, controlla la cartella spam."
+    confirmation_email_sent: "Abbiamo inviato una email di conferma a {email}. Ricordati di controllare la cartella spam."
     delete: Cancella
     delete_forever: Cancella per sempre
     discussions: Discussioni                     # Referenced by flarum-statistics.yml
     edit: Modifica
-    email: Email
+    email: E-mail
     load_more: Carica di più
     log_in: Accesso
-    log_out: Logout
+    log_out: Esci
     mark_all_as_read: Segna tutto come letto
     next_page: Pagina successiva
-    notifications: Notifiche
+    notifications: Notificami se...
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
     posts: Messaggi                                 # Referenced by flarum-statistics.yml
@@ -541,7 +541,7 @@ core:
     some_others: "{count} altro|{count} altri"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Inizia una Discussione
     username: Nome utente
-    write_a_reply: Scrivi una risposta...
+    write_a_reply: Rispondi alla Discussione...
     you: Tu                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
