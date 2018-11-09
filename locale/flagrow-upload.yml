@@ -21,8 +21,8 @@ flagrow-upload:
                 Mostra l'immagine completa in-line. Nessuna funzionalità di download,
                 le statistiche non sono raccolte e la protezione da hotlink è ignorata.
         permissions:
-            upload_label: Carica file
-            download_label: Scarica file
+            upload_label: Caricare un file
+            download_label: Scaricare un file
         upload_methods:
             local: Locale
             aws-s3: Amazon S3

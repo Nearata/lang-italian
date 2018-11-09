@@ -125,7 +125,7 @@ core:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: Consenti ridenominazione
-      allow_post_editing_label: Consenti modifica post
+      allow_post_editing_label: Consenti la modifica del messaggio
       create_heading: Creazione
       delete_discussions_forever_label: Eliminare le discussioni per sempre
       delete_discussions_label: Eliminare le discussioni
@@ -139,7 +139,7 @@ core:
       rename_discussions_label: Rinominare le discussioni
       reply_to_discussions_label: Rispondere alle discussioni
       sign_up_label: Registrazione
-      start_discussions_label: Inizia Discussioni
+      start_discussions_label: Iniziare una discussione
       view_discussions_label: Leggere le discussioni
       view_post_ips_label: Visualizzare indirizzi IP del post
       view_user_list_label: Visualizzare la lista utenti
