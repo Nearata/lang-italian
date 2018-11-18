@@ -14,13 +14,13 @@ flagrow-byobu:
         nav:
             private_discussions: Conversazione privata
         input:
-            search_recipients: Ricerca destinatario digitando i primi tre caratteri...
+            search_recipients: Cerca un destinatario... (minimo 3 caratteri)
         search:
             headings:
                 groups: Permessi Gruppi
         modal:
             titles:
-                update_recipients: Aggiorna destinatari di {title}
+                update_recipients: Aggiorna i destinatari di {title}
                 add_recipients: Aggiungi destinatari alla tua conversazione
         post:
             recipients_modified:
@@ -31,5 +31,5 @@ flagrow-byobu:
         permission:
             create_private_discussions_with_users: Creare discussioni private con gli utenti
             create_private_discussions_with_groups: Creare discussioni private con i gruppi
-            edit_user_recipients: Modificare gli utenti che partecipano a conversazioni private
-            edit_group_recipients: Modificare i gruppi che partecipano a conversazioni private
+            edit_user_recipients: Modificare gli utenti che partecipano a una conversazione privata
+            edit_group_recipients: Modificare i gruppi che partecipano a una conversazione privata

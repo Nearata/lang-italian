@@ -9,8 +9,8 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Messaggi segnalati
-      view_flags_label: Vedere messaggi segnalati
+      flag_posts_label: Segnalare un messaggio
+      view_flags_label: Vedere le segnalazioni
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
@@ -22,7 +22,7 @@ flarum-flags:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Grazie per aver segnalato questo post. I nostri moderatori daranno un occhiata.
+      confirmation_message: Grazie per la segnalazione. Un nostro moderatore darà un'occhiata.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: Non appropriato
       reason_inappropriate_text: "Questo messaggio è offensivo, abusivo o viola la nostra <a>Linea di Condotta</a>."

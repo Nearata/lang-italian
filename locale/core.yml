@@ -141,7 +141,7 @@ core:
       sign_up_label: Registrazione
       start_discussions_label: Iniziare una discussione
       view_discussions_label: Leggere le discussioni
-      view_post_ips_label: Visualizzare indirizzi IP del post
+      view_post_ips_label: Visualizzare indirizzi IP del messaggio
       view_user_list_label: Visualizzare la lista utenti
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -307,7 +307,7 @@ core:
     post:
       edited_text: Modificato
       edited_tooltip: "{username} modificato {ago}"
-      number_tooltip: "Post #{number}"
+      number_tooltip: "Messaggio #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:

@@ -1,7 +1,7 @@
 flagrow-split:
     admin:
         permissions:
-            split_discussion_label: Sposta i messaggi dalle discussioni
+            split_discussion_label: Spostare i messaggi dalle discussioni
     forum:
         post:
             was_split_to: "{count} messaggio è stato spostato nella discussione {target}.|{count} messaggi sono stati spostati nella discussione {target}."

@@ -13,7 +13,7 @@ flagrow-ads:
                 title: Posizione dell'annuncio nella colonna di sinistra sotto i tag in prima pagina
                 placeholder: => flagrow-ads.admin.positions.under-header.placeholder
         settings:
-            start-from-post: Specifica da quale messaggio iniziare a mostrare un annuncio
-            between-n-posts: Specifica dopo quanti messaggi pubblicare un annuncio
+            start-from-post: Specifica da quale messaggio vuoi mostrare un annuncio
+            between-n-posts: Specifica dopo quanti messaggi vuoi mostrare un annuncio
         tab:
-            description: Imposta le preferenze e le posizioni degli annunci.
+            description: Imposta le preferenze e la posizione degli annunci.
