@@ -1,3 +1,5 @@
+# https://github.com/caouecs/Laravel-lang/blob/master/src/it/validation.php
+
 validation:
   accepted: ":attribute deve essere accettato."
   active_url: ":attribute non è un URL valido."
