@@ -3,7 +3,7 @@
 ## Installation
 
 ```shell
-composer require nearata/flarum-ext-italian
+composer require nearata/lang-italian
 ```
 
 The same command can be used to update independently, without updating anything else.
@@ -11,7 +11,7 @@ The same command can be used to update independently, without updating anything 
 ## Uninstall
 
 ```shell
-composer remove nearata/flarum-ext-italian
+composer remove nearata/lang-italian
 ```
 
 ## Supported Extensions:
@@ -23,9 +23,11 @@ composer remove nearata/flarum-ext-italian
 | | flarum-auth-facebook |
 | | flarum-auth-github |
 | | flarum-auth-twitter |
+| | flarum-emoji |
 | | flarum-flags |
 | | flarum-likes |
 | | flarum-lock |
+| | flarum-markdown |
 | | flarum-mentions |
 | | flarum-pusher |
 | | flarum-statistics |
