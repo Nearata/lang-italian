@@ -376,6 +376,7 @@ core:
       in_discussion_text: "In {discussion}"
       joined_date_text: "Si è iscritto {ago}"
       online_text: Online
+      posts_empty_text: Non ci sono messaggi.
       posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
       settings_link: => core.ref.settings
