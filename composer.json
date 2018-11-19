@@ -1,5 +1,5 @@
 {
-    "name": "nearata/flarum-ext-italian",
+    "name": "nearata/lang-italian",
     "type": "flarum-extension",
     "description": "Italian language pack.",
     "keywords": ["locale"],
@@ -9,7 +9,8 @@
     },
 	"authors": [
         {
-            "name": "Nearata"
+            "name": "William Di Cicco",
+            "email": "nearata@protonmail.com"
         }
     ],
 	"support": {
