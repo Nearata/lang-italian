@@ -69,6 +69,7 @@ validation:
   unique: ":attribute è stato già utilizzato."
   uploaded: ":attribute non è stato caricato."
   url: "Il formato del campo :attribute non è valido."
+  uuid: ":attribute deve essere un UUID valido."
 
   attributes:
     username: nome utente
