@@ -144,6 +144,7 @@ core:
       view_discussions_label: Leggere le discussioni
       view_post_ips_label: Visualizzare indirizzi IP del messaggio
       view_user_list_label: Visualizzare la lista utenti
+      view_last_seen_at_label: Vedere l'ultimo accesso di un utente
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
