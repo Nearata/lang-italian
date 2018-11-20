@@ -221,7 +221,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Sei sicuro di voler cancellare questa discussione? Questa azione è irreversibile."
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Effettua l'accesso per Rispondere
+      log_in_to_reply_button: Rispondi
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -328,7 +328,7 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Il vecchio titolo era: "{old}"'
-      discussion_renamed_text: "{username} ha cambiato il titolo a {new}."
+      discussion_renamed_text: "{username} ha cambiato il titolo in {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} dopo"
@@ -361,7 +361,7 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Hai già un account? <a>Accesso</a>"
+      log_in_text: "Hai già un account? <a>Accedi</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -526,7 +526,7 @@ core:
     edit: Modifica
     email: E-mail
     load_more: Carica di più
-    log_in: Accesso
+    log_in: Accedi
     log_out: Esci
     mark_all_as_read: Segna tutto come letto
     next_page: Pagina successiva
@@ -540,11 +540,11 @@ core:
     restore: Ripristina
     save_changes: Salva cambiamenti                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Impostazioni
-    sign_up: Registrazione
+    sign_up: Registrati
     some_others: "{count} altro|{count} altri"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Inizia una Discussione
     username: Nome utente
-    write_a_reply: Rispondi alla Discussione...
+    write_a_reply: Rispondi alla discussione...
     you: Tu                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
