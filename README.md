@@ -1,12 +1,10 @@
 # Italian Language Pack for Flarum
 
-## Installation
+## Install / Update
 
 ```shell
 composer require nearata/lang-italian
 ```
-
-The same command can be used to update independently, without updating anything else.
 
 ## Uninstall
 
