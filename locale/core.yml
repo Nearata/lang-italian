@@ -50,7 +50,8 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      help_link: Ricevi Aiuto
+      clear_cache_button: Pulisci cache
+      tools_button: Strumenti
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
