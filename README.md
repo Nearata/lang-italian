@@ -44,7 +44,6 @@ composer remove nearata/lang-italian
 | **Reflar extensions** | |
 | | koseki |
 | | twofactor |
-| | uncache |
 | **Other extensions** | |
 | | antoinefr-money |
 | | avatar4eg-transliterator |
