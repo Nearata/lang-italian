@@ -1,6 +1,6 @@
 # Italian Language Pack for Flarum
 
-## Install / Update
+## Installation / Updating
 
 ```shell
 composer require nearata/lang-italian
