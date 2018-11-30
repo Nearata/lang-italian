@@ -266,7 +266,7 @@ core:
       not_found_message: Non c'è alcun utente registrato con questo indirizzo email.
       submit_button: Recupera Password
       text: Inserisci il tuo indirizzo email e ti invieremo un link per reimpostare la password
-      title: Ho dimenticato la password
+      title: Password dimenticata
 
     # These translations are used in the header and session dropdown menu.
     header:
@@ -301,7 +301,7 @@ core:
       forgot_password_link: "Password dimenticata?"
       invalid_login_message: I dati di accesso non sono corretti.
       password_placeholder: => core.ref.password
-      remember_me_label: Ricordami per due settimane
+      remember_me_label: Ricordami
       sign_up_text: "Non hai un account? <a>Registrati</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -470,7 +470,7 @@ core:
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: => core.ref.confirm_password
+      confirm_password_label: Conferma nuova password
       new_password_label: Nuova Password
       submit_button: => core.ref.save_changes
       title: core.ref.reset_your_password
