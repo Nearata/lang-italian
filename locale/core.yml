@@ -290,7 +290,7 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Recente
+      latest_button: Recenti
       newest_button: Nuovi
       oldest_button: Vecchi
       relevance_button: Rilevanza
