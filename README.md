@@ -33,24 +33,8 @@ composer remove nearata/lang-italian
 | | flarum-subscriptions |
 | | flarum-suspend |
 | | flarum-tags |
-| **Flagrow extensions** | |
-| | ads |
-| | bazaar |
-| | byobu |
-| | masquerade |
-| | passport |
-| | split |
-| | upload |
-| **Reflar extensions** | |
-| | koseki |
-| | twofactor |
-| **Other extensions** | |
-| | antoinefr-money |
-| | avatar4eg-transliterator |
-| | sijad-auth-steam |
-| | sijad-links |
-| | sijad-pages |
-| | sijad-recaptcha |
-| | wiseclock-post-copyright |
-| | wiseclock-reply2see |
-| | xengine-signature |
+
+| **Bundled libraries** | |
+| --- | --- |
+| | Validation by Laravel-lang |
+| | Moment |
