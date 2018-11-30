@@ -221,7 +221,7 @@ core:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "Sei sicuro di voler cancellare il messaggio?"
       posted_message: La tua risposta è stata pubblicata.
-      submit_button: Pubblica Risposta
+      submit_button: Rispondi
       view_button: Mostra
 
     # These translations are used by the discussion control buttons.
@@ -312,8 +312,8 @@ core:
       discussion_renamed_text: "{username} ha cambiato il titolo"
       empty_text: Non ci sono notifiche
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      title: => core.ref.notifications
-      tooltip: => core.ref.notifications
+      title: Notifiche
+      tooltip: Notifiche
 
     # These translations are used by tooltips displayed for individual posts.
     post:
