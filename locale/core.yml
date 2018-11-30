@@ -414,7 +414,7 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Qualcosa è andato storto. Ricarica la pagina e riprovare."
+      generic_message: "Oops! Qualcosa è andato storto. Ricarica la pagina e riprova."
       not_found_message: La risorsa richiesta non è stata trovata.
       permission_denied_message: Non hai il permesso di farlo.
       rate_limit_exceeded_message: Stai andando un po' troppo in fretta. Riprova tra qualche secondo.
