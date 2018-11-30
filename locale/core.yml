@@ -473,7 +473,7 @@ core:
       confirm_password_label: Conferma nuova password
       new_password_label: Nuova Password
       submit_button: => core.ref.save_changes
-      title: core.ref.reset_your_password
+      title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
