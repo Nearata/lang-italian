@@ -19,13 +19,16 @@ core:
       colored_header_label: Header Colorato
       colors_heading: Colori
       colors_text: "Scegli due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenzia, mentre il secondo verrà usato come colore per gli elementi di sfondo."
+      custom_footer_heading: Footer Personalizzato
+      custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Header Personalizzato
-      custom_header_text: "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum."
+      custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Stili Personalizzati
       custom_styles_text: Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili di default</a> di Flarum.
       dark_mode_label: Modalità Scura
       edit_css_button: Modifica CSS Personalizzato
-      edit_header_button: Modifica Header Personalizzato
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Inserisci un codice colore esadecimale
       favicon_heading: Favicon
       favicon_text: Carica un'immagine da visualizzare come favicon
@@ -59,9 +62,15 @@ core:
       submit_button: => core.ref.save_changes
       title: Modifica CSS Personalizzato
 
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Colore
+      color_label: => core.ref.color
       delete_button: Cancella Gruppo
       delete_confirmation: "Sei sicuro di voler cancellare questo gruppo? I membri che sono in questo gruppo NON verranno cancellati."
       icon_label: Icona
@@ -164,7 +173,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Rimuovi
+      remove_button: => core.ref.remove
       upload_button: Scegli un'immagine...
 
   # Translations in this namespace are used by the forum user interface.
@@ -343,7 +352,7 @@ core:
     search:
       all_discussions_button: 'Cerca tutte le discussioni per "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Utenti
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -403,16 +412,12 @@ core:
     badge:
       hidden_tooltip: Nascosto
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[cancellato]"
-
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Qualcosa è andato storto. Si prega di ricaricare la pagina e riprovare."
+      generic_message: "Oops! Qualcosa è andato storto. Ricarica la pagina e riprovare."
       not_found_message: La risorsa richiesta non è stata trovata.
       permission_denied_message: Non hai il permesso di farlo.
-      rate_limit_exceeded_message: Stai andando un po' troppo in fretta. Riprova in pochi secondi.
+      rate_limit_exceeded_message: Stai andando un po' troppo in fretta. Riprova tra qualche secondo.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -424,6 +429,10 @@ core:
       glue_text: ", "
       three_text: "{first}, {second} e {third}"
       two_text: "{first} e {second}"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[cancellato]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -437,8 +446,9 @@ core:
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Pagina precedente
+      previous_page_button: => core.ref.previous_page
 
+    # Translations in this namespace are displayed when Flarum encounters an error.
     error:
       403_message: Non sei autorizzato ad accedere a questa pagina.
       404_message: La pagina che hai richiesto non esiste.
@@ -450,6 +460,7 @@ core:
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
 
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
@@ -519,8 +530,13 @@ core:
     all_discussions: Tutte le discussioni
     change_email: Cambia e-mail
     change_password: Cambia password
+    color: Colore                                 # Referenced by flarum-tags.yml
     confirm_password: Conferma password
     confirmation_email_sent: "Abbiamo inviato una email di conferma a {email}. Ricordati di controllare la cartella spam."
+    custom_footer_text: Aggiungi codice HTML nella parte inferiore della pagina
+    custom_footer_title: Modifica footer
+    custom_header_text: "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum."
+    custom_header_title: Modifica header
     delete: Cancella
     delete_forever: Cancella per sempre
     discussions: Discussioni                     # Referenced by flarum-statistics.yml
@@ -535,9 +551,11 @@ core:
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
     posts: Messaggi                                 # Referenced by flarum-statistics.yml
+    previous_page: Pagina precedente
+    remove: Rimuovi
     rename: Rinomina
     reply: Rispondi                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Ripristina la tua password
+    reset_your_password: Ripristina la password
     restore: Ripristina
     save_changes: Salva cambiamenti                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Impostazioni
@@ -545,6 +563,7 @@ core:
     some_others: "{count} altro|{count} altri"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Inizia una Discussione
     username: Nome utente
+    users: Utenti                                 # Referenced by flarum-statistics.yml
     write_a_reply: Rispondi alla discussione...
     you: Tu                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
@@ -555,10 +574,10 @@ core:
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Admin
-    admins: Admins
+    admins: Admin
     guest: Ospite
     guests: Ospiti
     member: Membro
     members: Membri
     mod: Mod
-    mods: Mods
+    mods: Mod
