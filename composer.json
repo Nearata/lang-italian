@@ -30,6 +30,9 @@
         "flarum-locale": {
             "code": "it",
             "title": "Italiano"
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/5160-italian-language-pack"
         }
     }
 }
