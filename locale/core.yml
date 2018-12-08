@@ -16,17 +16,17 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Header Colorato
+      colored_header_label: Header colorato
       colors_heading: Colori
       colors_text: "Scegli due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenzia, mentre il secondo verrà usato come colore per gli elementi di sfondo."
-      custom_footer_heading: Footer Personalizzato
+      custom_footer_heading: Footer personalizzato
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Header Personalizzato
+      custom_header_heading: Header personalizzato
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Stili Personalizzati
+      custom_styles_heading: Stili personalizzati
       custom_styles_text: Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili predefiniti</a> di Flarum.
-      dark_mode_label: Modalità Scura
-      edit_css_button: Modifica CSS Personalizzato
+      dark_mode_label: Modalità scura
+      edit_css_button: Modifica CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Inserisci un codice colore esadecimale
@@ -60,7 +60,7 @@ core:
     edit_css:
       customize_text: "Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili predefiniti</a> di Flarum."
       submit_button: => core.ref.save_changes
-      title: Modifica CSS Personalizzato
+      title: Modifica CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -85,7 +85,7 @@ core:
     edit_header:
       customize_text: "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum."
       submit_button: => core.ref.save_changes
-      title: Modifica Header Personalizzato
+      title: Modifica Header
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -121,7 +121,7 @@ core:
     nav:
       appearance_button: Aspetto
       appearance_text: "Personalizza i colori, logo e altre variabili del forum."
-      basics_button: Impostazioni di Base
+      basics_button: Impostazioni di base
       basics_text: "Imposta il titolo del forum, la lingua e altre impostazioni di base."
       dashboard_button: Dashboard
       dashboard_text: Il tuo forum a colpo d'occhio
@@ -206,7 +206,7 @@ core:
     composer_discussion:
       body_placeholder: Messaggio...
       discard_confirmation: "Non hai creato la discussione. Desideri disfartene?"
-      submit_button: Crea Discussione
+      submit_button: Crea discussione
       title: => core.ref.start_a_discussion
       title_placeholder: Titolo della Discussione
 
@@ -238,7 +238,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Non ci sono discussioni qui.
+      empty_text: Non ci sono discussioni.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Segna come letto
       replied_text: "{username} ha risposto {ago}"
@@ -363,7 +363,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Qualcuno ha modificato una discussione che ho iniziato
-      privacy_disclose_online_label: Permetti agli altri di vedere quando sono online
+      privacy_disclose_online_label: Permetti agli altri utenti di vedere quando sono online
       privacy_heading: Privacy
       title: => core.ref.settings
 
@@ -561,7 +561,7 @@ core:
     settings: Impostazioni
     sign_up: Registrati
     some_others: "{count} altro|{count} altri"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Inizia una Discussione
+    start_a_discussion: Inizia una discussione
     username: Nome utente
     users: Utenti                                 # Referenced by flarum-statistics.yml
     write_a_reply: Rispondi alla discussione...
