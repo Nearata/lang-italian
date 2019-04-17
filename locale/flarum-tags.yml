@@ -46,7 +46,7 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Le etichette vengono usate per categorizzare le discussioni. Le etichette primarie sono come le categorie tradizionali dei forum: possono essere disposte in una gerarchia a due livelli. Le etichette secondarie non hanno gerarchia o ordine, e sono utili per miccro-categorizzare."
+      about_tags_text: "Le etichette vengono usate per categorizzare le discussioni. Le etichette primarie sono come le categorie tradizionali dei forum: possono essere disposte in una gerarchia a due livelli. Le etichette secondarie non hanno gerarchia o ordine, e sono utili per micro-categorizzare."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Etichette Primarie
       secondary_heading: Etichette Secondarie
