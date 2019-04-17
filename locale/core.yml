@@ -11,7 +11,7 @@ core:
     add_extension:
       developer_text: "Se sei uno sviluppatore, puoi leggere la <a>documentazione</a> e provare a scrivere una tua estensione."
       install_text: "Nel frattempo, puoi cercare estensioni sul sito della <a>Community di Flarum</a> e installarli manualmente usando Composer."
-      temporary_text: "Un giorno in un futuro non troppo lontano, questa finestra di dialogo ti permetterà di aggiungere un'estensione al tuo forum con facilità. Stiamo costruendo un ecosistema mentre parliamo!"
+      temporary_text: "Un giorno, in un futuro non troppo lontano, questa finestra di dialogo ti permetterà di aggiungere un'estensione al tuo forum con facilità. Stiamo costruendo un ecosistema mentre parliamo!"
       title: Aggiungi estensione
 
     # These translations are used in the Appearance page.
@@ -71,15 +71,15 @@ core:
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
-      delete_button: Cancella Gruppo
-      delete_confirmation: "Sei sicuro di voler cancellare questo gruppo? I membri che sono in questo gruppo NON verranno cancellati."
+      delete_button: Cancella gruppo
+      delete_confirmation: "Sei sicuro di voler cancellare questo gruppo? Gli utenti che sono in questo gruppo NON verranno cancellati."
       icon_label: Icona
       icon_text: "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>."
       name_label: Nome
       plural_placeholder: Plurale (es. Utenti)
       singular_placeholder: Singolare (es. Utente)
       submit_button: => core.ref.save_changes
-      title: Crea Gruppo
+      title: Crea gruppo
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -115,7 +115,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Attendere...
+      title: Caricamento...
 
     # These translations are used in the navigation bar.
     nav:
@@ -165,7 +165,7 @@ core:
       everyone_button: Tutti
       members_button: => core.group.members
       signup_closed_button: Chiuso
-      signup_open_button: Aperto
+      signup_open_button: Aperta
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -242,11 +242,11 @@ core:
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Segna come letto
       replied_text: "{username} ha risposto {ago}"
-      started_text: "{username} l'ha iniziata {ago}"
+      started_text: "Iniziata da {username} {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Attiva Utente
+      activate_button: Attiva utente
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: Gruppi
@@ -254,7 +254,7 @@ core:
       password_label: => core.ref.password
       set_password_label: Imposta nuova password
       submit_button: => core.ref.save_changes
-      title: Modifica Utente
+      title: Modifica utente
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -291,8 +291,8 @@ core:
     # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Recenti
-      newest_button: Nuovi
-      oldest_button: Vecchi
+      newest_button: Nuove
+      oldest_button: Vecchie
       relevance_button: Rilevanza
       top_button: Top
 
@@ -318,7 +318,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: Modificato
-      edited_tooltip: "{username} modificato {ago}"
+      edited_tooltip: "Modificato da {username} {ago}"
       number_tooltip: "Messaggio #{number}"
 
     # These translations are used by the post control buttons.
@@ -338,14 +338,14 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Il vecchio titolo era: "{old}"'
-      discussion_renamed_text: "{username} ha cambiato il titolo in {new}."
+      discussion_renamed_text: "{username} ha cambiato il titolo in {new}"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} dopo"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rinomina Discussione
+      title: Rinomina discussione
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
@@ -577,7 +577,7 @@ core:
     admins: Admin
     guest: Ospite
     guests: Ospiti
-    member: Membro
-    members: Membri
+    member: Utente
+    members: Utenti
     mod: Mod
     mods: Mod
