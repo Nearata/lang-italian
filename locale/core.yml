@@ -73,8 +73,8 @@ core:
       color_label: => core.ref.color
       delete_button: Cancella gruppo
       delete_confirmation: "Sei sicuro di voler cancellare questo gruppo? Gli utenti che sono in questo gruppo NON verranno cancellati."
-      icon_label: Icona
-      icon_text: "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>."
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: Nome
       plural_placeholder: Plurale (es. Utenti)
       singular_placeholder: Singolare (es. Utente)
@@ -89,19 +89,28 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: Account SMTP
       addresses_heading: Indirizzi
+      driver_heading: Scegli un Driver
       driver_label: Driver
-      encryption_label: Crittografia
       from_label: Mittente
       heading: => core.ref.email
-      host_label: Host
-      password_label: => core.ref.password
-      port_label: Porta
-      server_heading: Server SMTP
+      mail_encryption_label: Crittografia
+      mail_host_label: Host
+      mail_mailgun_domain_label: Dominio
+      mail_mailgun_secret_label: Chiave segreta
+      mail_mandrill_secret_label: Chiave segreta
+      mail_password_label: => core.ref.password
+      mail_port_label: Porta
+      mail_ses_key_label: Chiave
+      mail_ses_region_label: Regione
+      mail_ses_secret_label: Segreto
+      mail_username_label: => core.ref.username
+      mailgun_heading: Impostazioni Mailgun
+      mandrill_heading: Impostazioni Mandrill
+      ses_heading: Impostazioni SES
+      smtp_heading: Impostazioni SMTP
       submit_button: => core.ref.save_changes
       text: Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare email
-      username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
@@ -453,6 +462,8 @@ core:
       403_message: Non sei autorizzato ad accedere a questa pagina.
       404_message: La pagina che hai richiesto non esiste.
       404_return_link: "Ritorna su {forum}"
+      419_message: Sei stato inattivo per troppo tempo.
+      419_return_link: Torna indietro e riprova.
       500_message: Si è verificato un errore durante il caricamento di questa pagina.
       503_message: "{forum} è in manutenzione. Ritonerà operativo il prima possibile!"
 
@@ -542,6 +553,8 @@ core:
     discussions: Discussioni                     # Referenced by flarum-statistics.yml
     edit: Modifica
     email: E-mail
+    icon: Icona
+    icon_text: "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>."
     load_more: Carica di più
     log_in: Accedi
     log_out: Esci
