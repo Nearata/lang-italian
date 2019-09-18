@@ -151,6 +151,7 @@ core:
       delete_posts_forever_label: Eliminare messaggi per sempre
       delete_posts_label: Cancellare messaggi
       edit_posts_label: Modificare messaggi
+      edit_users_label: Modificare utenti
       global_heading: Globale
       moderate_heading: Moderazione
       new_group_button: Nuovo Gruppo
