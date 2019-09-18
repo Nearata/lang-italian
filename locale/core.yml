@@ -463,10 +463,11 @@ core:
     error:
       csrf_token_mismatch: Sei stato inattivo per troppo tempo.
       csrf_token_mismatch_return_link: Torna indietro e riprova
-      forbidden: Non hai i permessi necessari per accedere a questa pagina.
       invalid_confirmation_token: Questo link di conferma è già stato usato oppure non è valido.
+      not_authenticated: Non hai i permessi necessarie per accedere a questa pagina. Riprova dopo aver effettuato l'accesso.
       not_found: La pagina che hai richiesto non è stata trovata.
       not_found_return_link: "Ritorna su {forum}"
+      permission_denied: Non hai i permessi necessarie per accedere a questa pagina.
       unknown: Si è verificato un errore durante il caricamento di questa pagina.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
