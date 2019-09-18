@@ -464,6 +464,7 @@ core:
       csrf_token_mismatch: Sei stato inattivo per troppo tempo.
       csrf_token_mismatch_return_link: Torna indietro e riprova
       forbidden: Non hai i permessi necessari per accedere a questa pagina.
+      invalid_confirmation_token: Questo link di conferma è già stato usato oppure non è valido.
       not_found: La pagina che hai richiesto non è stata trovata.
       not_found_return_link: "Ritorna su {forum}"
       unknown: Si è verificato un errore durante il caricamento di questa pagina.
