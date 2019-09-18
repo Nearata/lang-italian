@@ -406,6 +406,8 @@ core:
       button: Controlli
       delete_button: => core.ref.delete
       delete_confirmation: "Sei sicuro di voler eliminare questo utente? Tutti i messaggi di questo utente verrano cancellati."
+      delete_error_message: "Cancellazione dell'utente <i>{username} ({email})</i> fallito"
+      delete_success_message: "L'utente <i>{username} ({email})</i> è stato cancellato"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
