@@ -97,6 +97,7 @@ core:
       mail_encryption_label: Crittografia
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
+      mail_mailgun_region_label: Regione
       mail_mailgun_secret_label: Chiave segreta
       mail_mandrill_secret_label: Chiave segreta
       mail_password_label: => core.ref.password
