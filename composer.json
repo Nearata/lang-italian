@@ -1,6 +1,6 @@
 {
     "name": "nearata/lang-italian",
-    "description": "Italian language pack for flarum.",
+    "description": "Italian language pack.",
     "type": "flarum-extension",
     "keywords": ["locale", "extension", "italian"],
     "license": "MIT",
