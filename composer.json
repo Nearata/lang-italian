@@ -1,8 +1,8 @@
 {
     "name": "nearata/lang-italian",
+    "description": "Italian language pack for flarum.",
     "type": "flarum-extension",
-    "description": "Italian language pack.",
-    "keywords": ["locale"],
+    "keywords": ["locale", "extension", "italian"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.11"
