@@ -46,3 +46,14 @@ php flarum cache:clear
 | --- |
 |Validation by Laravel-lang|
 |Moment|
+
+## License
+
+Distributed under the MIT license. See `LICENSE` for more information.
+
+## Contributing
+
+1. Fork it
+2. Commit your changes
+3. Push to the branch
+4. Create a new Pull Request
