@@ -158,6 +158,7 @@ core:
       moderate_heading: Moderazione
       new_group_button: Nuovo Gruppo
       participate_heading: Partecipazione
+      post_without_throttle_label: Rispondere molteplici volte senza aspettare
       read_heading: Lettura
       rename_discussions_label: Rinominare le discussioni
       reply_to_discussions_label: Rispondere alle discussioni
