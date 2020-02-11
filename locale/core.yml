@@ -108,11 +108,11 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Impostazioni Mailgun
       mandrill_heading: Impostazioni Mandrill
-      not_sending_message: Flarum al momento non invia email. Ciò può essere dovuto al driver selezionato oppure a errori di configurazione.
+      not_sending_message: Flarum al momento non invia e-mail. Ciò può essere dovuto al driver selezionato oppure a errori di configurazione.
       ses_heading: Impostazioni SES
       smtp_heading: Impostazioni SMTP
       submit_button: => core.ref.save_changes
-      text: Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare email
+      text: Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail
 
     # These translations are used in the Extensions page.
     extensions:
