@@ -10,11 +10,11 @@ flarum-flags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       flag_posts_label: Segnalare un messaggio
-      flag_own_posts_label: Consenti agli utenti di segnalare i propri messaggi
       view_flags_label: Vedere le segnalazioni
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
+      flag_own_posts_label: Consenti agli utenti di segnalare i propri messaggi
       guidelines_url_label: URL Linea di Condotta
       title: Impostazioni Segnalazioni
 
