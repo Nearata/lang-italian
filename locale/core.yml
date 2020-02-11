@@ -108,6 +108,7 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Impostazioni Mailgun
       mandrill_heading: Impostazioni Mandrill
+      not_sending_message: Flarum al momento non invia email. Ciò può essere dovuto al driver selezionato oppure a errori di configurazione.
       ses_heading: Impostazioni SES
       smtp_heading: Impostazioni SMTP
       submit_button: => core.ref.save_changes
