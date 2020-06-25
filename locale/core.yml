@@ -340,7 +340,9 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      delete_confirmation: "Sei sicuro di volere cancellare questa discussione per sempre? Questa azione è irreversibile."
       delete_forever_button: => core.ref.delete_forever
+      hide_confirmation: "Sei sicuro di volere cancellare questa discussione?"
       edit_button: => core.ref.edit
       restore_button: => core.ref.restore
 
