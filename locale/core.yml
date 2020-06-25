@@ -342,8 +342,8 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Sei sicuro di volere cancellare questa discussione per sempre? Questa azione è irreversibile."
       delete_forever_button: => core.ref.delete_forever
-      hide_confirmation: "Sei sicuro di volere cancellare questa discussione?"
       edit_button: => core.ref.edit
+      hide_confirmation: "Sei sicuro di volere cancellare questa discussione?"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
