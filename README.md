@@ -20,7 +20,7 @@ composer remove nearata/lang-italian
 php flarum cache:clear
 ```
 
-## Supported Extensions:
+## Supported Extensions
 
 | **Bundled extensions** |
 | --- |
