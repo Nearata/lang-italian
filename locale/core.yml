@@ -31,9 +31,9 @@ core:
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Inserisci un codice colore esadecimale
       favicon_heading: Favicon
-      favicon_text: Carica un'immagine da visualizzare come favicon
+      favicon_text: Carica un'immagine da utilizzare come favicon del sito
       logo_heading: Logo
-      logo_text: Carica un'immagine da visualizzare al posto del nome del forum
+      logo_text: Carica un'immagine da utilizzare al posto del nome del forum
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -46,12 +46,12 @@ core:
       forum_description_text: Scrivi una breve descrizione della tua community. Apparirà nei meta tag e mostrato ai motori di ricerca.
       forum_title_heading: Nome del Forum
       home_page_heading: Homepage
-      home_page_text: "Scegli la pagina che deve essere mostrata agli utenti prima di mostrare il forum."
+      home_page_text: "Scegli la pagina che vuoi venga mostrata agli utenti prima di mostrare il forum."
       saved_message: Le modifiche sono state salvate
-      show_language_selector_label: Mostra il selettore lingua
+      show_language_selector_label: Mostra il selettore di lingua
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Banner di Benvenuto
-      welcome_banner_text: Configura il testo da visualizzare sul banner che apparirà su tutte le pagine. Usalo per accogliere gli ospiti sul tuo forum.
+      welcome_banner_heading: Banner di benvenuto
+      welcome_banner_text: Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -86,7 +86,7 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum."
+      customize_text: "Aggiungi codice HTML da visualizzare in cima la pagina, sopra l'header di Flarum."
       submit_button: => core.ref.save_changes
       title: Modifica Header
 
@@ -306,7 +306,7 @@ core:
       latest_button: Recenti
       newest_button: Nuove
       oldest_button: Vecchie
-      relevance_button: Rilevanza
+      relevance_button: Rilevanti
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
@@ -412,7 +412,7 @@ core:
     user_controls:
       button: Controlli
       delete_button: => core.ref.delete
-      delete_confirmation: "Sei sicuro di voler eliminare questo utente? Tutti i messaggi di questo utente NON verrano cancellati."
+      delete_confirmation: "Sei sicuro di voler eliminare questo utente? I messaggi inviati da questo utente NON verrano cancellati."
       delete_error_message: "Cancellazione dell'utente <i>{username} ({email})</i> fallito"
       delete_success_message: "L'utente <i>{username} ({email})</i> è stato cancellato"
       edit_button: => core.ref.edit
@@ -432,7 +432,7 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Qualcosa è andato storto. Ricarica la pagina e riprova."
+      generic_message: "Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova."
       not_found_message: La risorsa richiesta non è stata trovata.
       permission_denied_message: Non hai il permesso di farlo.
       rate_limit_exceeded_message: Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo.
@@ -471,10 +471,10 @@ core:
       csrf_token_mismatch: Sei stato inattivo per troppo tempo.
       csrf_token_mismatch_return_link: Torna indietro e riprova
       invalid_confirmation_token: Questo link di conferma è già stato usato oppure non è valido.
-      not_authenticated: Non hai i permessi necessarie per accedere a questa pagina. Riprova dopo aver effettuato l'accesso.
+      not_authenticated: Non hai i permessi necessari per accedere a questa pagina. Riprova dopo aver effettuato l'accesso.
       not_found: La pagina che hai richiesto non è stata trovata.
       not_found_return_link: "Ritorna su {forum}"
-      permission_denied: Non hai i permessi necessarie per accedere a questa pagina.
+      permission_denied: Non hai i permessi necessari per accedere a questa pagina.
       unknown: Si è verificato un errore durante il caricamento di questa pagina.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
@@ -486,7 +486,7 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Sei sicuro di voler eseguire il log out su {forum}?"
+      log_out_confirmation: "Sei sicuro di volerti disconnettere da {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
@@ -522,12 +522,12 @@ core:
       body: |
         Ciao {username}!
 
-        Qualcuno ha cambiato la sua e-mail in questa su {forum}.
+        Qualcuno ha inserito questa e-mail sul forum {forum}.
 
         Se sei stato tu, clicca sul seguente link e il tuo nuovo indirizzo verrà confermato:
         {url}
 
-        Se non hai richiesto tu di cambiare l'e-mail, per favore ignora questa e-mail.
+        Se non sei stato tu a richiedere il cambio e-mail, per favore ignora questa e-mail.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:

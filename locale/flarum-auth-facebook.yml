@@ -10,7 +10,7 @@ flarum-auth-facebook:
     # These translations are used in the Facebook Settings modal dialog.
     facebook_settings:
       app_id_label: ID App
-      app_secret_label: App Secret
+      app_secret_label: Chiave segreta
       title: Impostazioni Facebook
 
   # Translations in this namespace are used by the forum user interface.

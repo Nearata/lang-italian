@@ -12,7 +12,7 @@ flarum-pusher:
       app_cluster_label: Cluster
       app_id_label: ID App
       app_key_label: Chiave App
-      app_secret_label: App Secret
+      app_secret_label: Chiave segreta
       title: Impostazioni Pusher
 
   # Translations in this namespace are used by the admin interface.

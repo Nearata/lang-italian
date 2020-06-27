@@ -10,7 +10,7 @@ flarum-auth-github:
     # These translations are used in the GitHub Settings modal dialog.
     github_settings:
       client_id_label: ID Client
-      client_secret_label: Client Secret
+      client_secret_label: Chiave segreta
       title: Impostazioni GitHub
 
   # Translations in this namespace are used by the forum user interface.
