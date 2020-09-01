@@ -104,7 +104,11 @@ core:
       mail_port_label: Porta
       mail_username_label: => core.ref.username
       mailgun_heading: Impostazioni Mailgun
-      not_sending_message: Flarum al momento non invia e-mail. Ciò può essere dovuto al driver selezionato oppure a errori di configurazione.
+      not_sending_message: Flarum al momento non invia email. Ciò può essere dovuto al driver selezionato oppure a errori di configurazione.
+      send_test_mail_button: Invia
+      send_test_mail_heading: Invia email di prova
+      send_test_mail_success: Email di prova inviata con successo!
+      send_test_mail_text: This will send an email using the above configuration to your email, {email}.
       smtp_heading: Impostazioni SMTP
       submit_button: => core.ref.save_changes
       text: Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail
@@ -534,6 +538,14 @@ core:
         {url}
 
         Se non desideri cambiare la password, semplicemente ignora questa e-mail e non accadrà nulla.
+
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: "[Flarum] Email di prova"
+      body: |
+        Ciao {username}!
+
+        Se ricevi questa email, significa che l'attuale configurazione sta funzionando correttamente.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
