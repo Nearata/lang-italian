@@ -100,12 +100,10 @@ core:
       mail_mailgun_domain_label: Dominio
       mail_mailgun_region_label: Regione
       mail_mailgun_secret_label: Chiave segreta
-      mail_mandrill_secret_label: Chiave segreta
       mail_password_label: => core.ref.password
       mail_port_label: Porta
       mail_username_label: => core.ref.username
       mailgun_heading: Impostazioni Mailgun
-      mandrill_heading: Impostazioni Mandrill
       not_sending_message: Flarum al momento non invia e-mail. Ciò può essere dovuto al driver selezionato oppure a errori di configurazione.
       smtp_heading: Impostazioni SMTP
       submit_button: => core.ref.save_changes
