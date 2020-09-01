@@ -295,6 +295,7 @@ core:
       cannot_start_discussion_button: Impossibile iniziare una discussione
       mark_all_as_read_confirmation: "Sei sicuro di voler contrassegnare tutte le discussioni come lette?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Aggiorna
       start_discussion_button: => core.ref.start_a_discussion
 
