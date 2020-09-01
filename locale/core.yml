@@ -1,12 +1,10 @@
 core:
-
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
   # Translations in this namespace are used by the admin interface.
   admin:
-
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
       developer_text: "Se sei uno sviluppatore, puoi leggere la <a>documentazione</a> e provare a scrivere una tua estensione."
@@ -191,7 +189,6 @@ core:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
-
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
@@ -425,7 +422,6 @@ core:
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
-
     # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Nascosto
@@ -454,7 +450,6 @@ core:
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
-
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: Questo sito è ottimizzato per un browser moderno con JavaScript abilitato.
@@ -502,7 +497,6 @@ core:
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
-
     # These translations are used in emails sent when users register new accounts.
     activate_account:
       subject: Attiva il tuo account
@@ -551,7 +545,7 @@ core:
     all_discussions: Tutte le discussioni
     change_email: Cambia e-mail
     change_password: Cambia password
-    color: Colore                                 # Referenced by flarum-tags.yml
+    color: Colore # Referenced by flarum-tags.yml
     confirm_password: Conferma password
     confirmation_email_sent: "Abbiamo inviato una e-mail di conferma a {email}. Ricordati di controllare la cartella spam."
     custom_footer_text: Aggiungi codice HTML nella parte inferiore della pagina
@@ -560,7 +554,7 @@ core:
     custom_header_title: Modifica header
     delete: Cancella
     delete_forever: Cancella per sempre
-    discussions: Discussioni                     # Referenced by flarum-statistics.yml
+    discussions: Discussioni # Referenced by flarum-statistics.yml
     edit: Modifica
     email: E-mail
     icon: Icona
@@ -571,24 +565,24 @@ core:
     mark_all_as_read: Segna tutto come letto
     next_page: Pagina successiva
     notifications: Notificami se...
-    okay: OK                                     # Referenced by flarum-tags.yml
+    okay: OK # Referenced by flarum-tags.yml
     password: Password
-    posts: Messaggi                                 # Referenced by flarum-statistics.yml
+    posts: Messaggi # Referenced by flarum-statistics.yml
     previous_page: Pagina precedente
     remove: Rimuovi
     rename: Rinomina
-    reply: Rispondi                                 # Referenced by flarum-mentions.yml
+    reply: Rispondi # Referenced by flarum-mentions.yml
     reset_your_password: Ripristina la password
     restore: Ripristina
-    save_changes: Salva cambiamenti                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: Salva cambiamenti # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Impostazioni
     sign_up: Registrati
-    some_others: "{count} altro|{count} altri"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} altro|{count} altri" # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Inizia una discussione
     username: Nome utente
-    users: Utenti                                 # Referenced by flarum-statistics.yml
+    users: Utenti # Referenced by flarum-statistics.yml
     write_a_reply: Rispondi alla discussione...
-    you: Tu                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Tu # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
