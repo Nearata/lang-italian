@@ -45,7 +45,7 @@ flarum-flags:
     post:
       dismiss_flag_button: Elimina Segnalazione
       flagged_by_text: "Segnalato da {username}"
-      flagged_by_with_reason_text: "{username} è stato segnalato per {reason}"
+      flagged_by_with_reason_text: "Segnalato da {username} per {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
