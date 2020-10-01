@@ -33,3 +33,24 @@ flarum-mentions:
     # These translations are used in the user profile page and profile popup.
     user:
       mentions_link: Menzioni
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+    # These translations are used in emails sent when a post is replied to
+    post_mentioned:
+      subject: "{replier_display_name} ha risposto a un tuo post in {title}"
+      body: |
+        Ciao {recipient_display_name}!
+        {replier_display_name} ha risposto a un tuo post (#{post_number}) nella discussione {title}.
+        {url}
+        ---
+        {content}
+    # These translations are used in emails sent when a user is mentioned
+    user_mentioned:
+      subject: "{mentioner_display_name} ti ha menzionato in {title}"
+      body: |
+        Ciao {recipient_display_name}!
+        {mentioner_display_name} ti ha menzionato in un post nella discussione {title}.
+        {url}
+        ---
+        {content}
