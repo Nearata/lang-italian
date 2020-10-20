@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0-beta.14] - 2020-10-20
 
-[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.11...v0.1.0-beta.14)
+[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.13...v0.1.0-beta.14)
 
 Updated to beta 14
 
