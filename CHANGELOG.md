@@ -7,7 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.13...master)
+[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.14...master)
+
+## [0.1.0-beta.14] - 2020-10-TBD
+
+[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.11...v0.1.0-beta.14)
+
+Updated to beta 14
+
+### Added
+
+- Keys for extension dependency errors
+- Keys for emails from flarum/mentions
+- Keys for emails from flarum/subscriptions
+- Key for password validation rule
+- Keys for email testing in the admin area
+- Key for all discussions meta title
+- Key for following page meta title
+- Keys for display name drivers
+
+### Changed
+
+- Quoted translated string that contains variable
+- Period added to stop line in validation messages
+- Improved flarum/flags translations
+- Updated validations
+
+### Removed
+
+- Keys for mandrill email driver
+- Keys for SES email driver
 
 ## [0.1.0-beta.13] - 2020-06-25
 
