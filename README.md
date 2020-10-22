@@ -44,7 +44,7 @@ php flarum cache:clear
   - flarum-tags
 - Bundled libraries
   - Validation
-  - Moment
+  - Day.js
 
 ## License
 
