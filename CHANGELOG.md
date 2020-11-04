@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.14.2...master)
+[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.14.3...master)
+
+## [0.1.0-beta.14.3] - 2020-11-04
+
+[Changes](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.14.2...v0.1.0-beta.14.3)
+
+### Fix
+
+- Keys order
+- Missing translation keys for edited post
 
 ## [0.1.0-beta.14.2] - 2020-10-22
 
