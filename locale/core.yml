@@ -43,6 +43,8 @@ core:
       home_page_text: "Scegli la pagina che vuoi venga mostrata agli utenti prima di mostrare il forum."
       saved_message: Le modifiche sono state salvate
       show_language_selector_label: Mostra il selettore di lingua
+      slug_driver_heading: "Driver Slug: {model}"
+      slug_driver_text: Seleziona il driver che verrà utilizzato per creare uno slug di questo modello. # TODO: maybe a better translation
       submit_button: => core.ref.save_changes
       title: Impostazioni di base
       welcome_banner_heading: Banner di benvenuto
