@@ -152,6 +152,7 @@ core:
       basics_title: => core.admin.basics.description
       categories:
         authentication: Autenticazione
+        core: Configurazione Principale
         discussion: Discussione
         feature: Funzionalità
         formatting: Formattazione
