@@ -24,26 +24,7 @@ php flarum cache:clear
 
 ## Translations
 
-- Core
-- Bundled extensions
-  - flarum-akismet
-  - flarum-approval
-  - flarum-emoji
-  - flarum-flags
-  - flarum-likes
-  - flarum-lock
-  - flarum-markdown
-  - flarum-mentions
-  - flarum-pusher
-  - flarum-statistics
-  - flarum-sticky
-  - flarum-subscriptions
-  - flarum-suspend
-  - flarum-tags
-  - fof-oauth
-- Bundled libraries
-  - Validation
-  - Day.js
+See [TRANSLATIONS.md](TRANSLATIONS) to see the list of supported extensions.
 
 ## License
 
