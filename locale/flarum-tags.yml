@@ -13,7 +13,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Colore
+      color_label: => core.ref.color
       delete_tag_button: Cancella Etichetta
       delete_tag_confirmation: "Sei sicuro di voler cancellare questo etichetta? Le discussioni appartenenti a questa etichetta NON verranno cancellate."
       description_label: Descrizione
@@ -29,12 +29,12 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Gestisci l'elenco di tag disponibili per organizzare le discussioni.
+      tags_text: Gestisci l'elenco di etichette disponibili per organizzare le discussioni.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Consenti la modifica delle etichette
-      bypass_tag_counts_label: Ignora i requisiti dei tag
+      bypass_tag_counts_label: Ignora i requisiti delle etichette
       restrict_by_tag_heading: Limita per etichetta
       tag_discussions_label: Etichette delle discussioni
 
@@ -45,7 +45,7 @@ flarum-tags:
       required_primary_text: Inserisci il numero minimo e massimo di etichette principali che possono essere applicate ad una discussione
       required_secondary_heading: Numero richiesto di etichette secondarie
       required_secondary_text: Inserisci il numero minimo e massimo di etichette secondarie che possono essere applicate ad una discussione
-      title: Impostazioni Etichetta
+      title: Impostazioni Etichette
 
     # These translations are used in the Tags page.
     tags:
@@ -61,24 +61,24 @@ flarum-tags:
 
     # These translations are displayed on the page that lists all tags.
     all_tags:
-      meta_description_text: Tutti i tag
+      meta_description_text: Tutte le etichette
       meta_title_text: => flarum-tags.ref.tags
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Scegli una etichetta primaria|Scegli {count} etichette primarie"
-      choose_secondary_placeholder: "Scegli 1 etichetta in più|Scegli {count} etichette in più"
+      choose_primary_placeholder: "{count, plural, one {Scegli una etichetta primaria} other {Scegli # etichette primarie}}"
+      choose_secondary_placeholder: "{count, plural, one {Scegli 1 etichetta in più} other {Scegli # etichette in più}}"
       edit_title: "Modifica etichette per {title}"
       submit_button: => core.ref.okay
       title: Scegli le etichette per la tua discussione
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Scegli Etichette
+      choose_tags_link: Scegli etichette
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Modifica Etichette
+      edit_tags_button: Modifica etichette
 
     header:
       back_to_tags_tooltip: Ritorna alla lista delle etichette
@@ -94,11 +94,11 @@ flarum-tags:
       added_tags_text: "{username} ha aggiunto {tagsAdded}."
       added_and_removed_tags_text: "{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved}."
       removed_tags_text: "{username} ha rimosso {tagsRemoved}."
-      tags_text: "l'etichetta {tags}|le etichette {tags}"
+      tags_text: "{count, plural, one {l'etichetta #} other {le etichette #}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "Tutte le discussioni con il tag {tag}"
+      meta_description_text: "Tutte le discussioni con l'etichetta {tag}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
