@@ -28,7 +28,7 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} ha scritto un messaggio"
+      new_post_text: "{username} ha creato un post"
 
     # These translations are used in the Settings page.
     settings:
@@ -43,9 +43,9 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Nessuna notifica. Nascondimi dalla lista della discussione.
       not_following_button: Non seguire
-      not_following_text: "Mandami una notifica solo quando sono @citato."
-      notify_alert_tooltip: Ricevi una email quando qualcuno risponde
-      notify_email_tooltip: Ricevi una notifica quando qualcuno risponde
+      not_following_text: "Mandami una notifica solo quando @citato."
+      notify_alert_tooltip: Ricevi una notifica quando ci sono nuovi post
+      notify_email_tooltip: Ricevi una email quando ci sono nuovi post
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
