@@ -28,7 +28,6 @@ core:
       favicon_text: Carica un'immagine da utilizzare come favicon del sito
       logo_heading: Logo
       logo_text: Carica un'immagine da utilizzare al posto del nome del forum
-      submit_button: => core.ref.save_changes
       title: Aspetto
 
     # These translations are used in the Basics page.
@@ -43,11 +42,9 @@ core:
       forum_title_heading: Nome del Forum
       home_page_heading: Homepage
       home_page_text: "Scegli la pagina che vuoi venga mostrata agli utenti prima di mostrare il forum."
-      saved_message: Le modifiche sono state salvate
       show_language_selector_label: Mostra il selettore di lingua
       slug_driver_heading: "Driver Slug: {model}"
       slug_driver_text: Seleziona il driver che verrà utilizzato per creare uno slug di questo modello. # TODO: maybe a better translation
-      submit_button: => core.ref.save_changes
       title: Impostazioni di base
       welcome_banner_heading: Banner di benvenuto
       welcome_banner_text: Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.
@@ -98,7 +95,6 @@ core:
       driver_heading: Seleziona Driver
       driver_label: Driver
       from_label: Mittente
-      heading: => core.ref.email
       mail_encryption_label: Crittografia
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
@@ -114,11 +110,11 @@ core:
       send_test_mail_success: Email di prova inviata con successo!
       send_test_mail_text: This will send an email using the above configuration to your email, {email}.
       smtp_heading: Impostazioni SMTP
-      submit_button: => core.ref.save_changes
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
+      configure_scopes: Configura
       confirm_uninstall: Se decidi di proseguire, tutti i dati presenti nel database e i file prensenti nella cartella assets, correlati all'estensione, verranno eliminati. Sei sicuro?
       disabled: Disabilitata
       enabled: Abilitata
@@ -134,7 +130,6 @@ core:
       no_settings: Non ci sono impostazioni.
       open_modal: Mostra impostazioni
       permissions_title: Permessi
-      saved_message: Le tue modifiche sono state salvate
       uninstall_button: Disinstalla
 
     # These translations are used in the secondary header.
@@ -169,6 +164,8 @@ core:
       permissions_button: => core.admin.permissions.title
       permissions_text: => core.admin.permissions.description
       search_placeholder: Cerca estensioni
+      userlist_button: => core.admin.users.title
+      userlist_title: => core.admin.users.description
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -182,6 +179,8 @@ core:
       description: Configura chi può vedere o fare cosa.
       edit_posts_label: Modificare messaggi
       edit_users_label: Modificare utenti
+      edit_users_credentials_label: Modificare credenziali utente
+      edit_users_groups_label: Modificare gruppi utente
       global_heading: Globale
       moderate_heading: Moderazione
       new_group_button: Nuovo Gruppo
@@ -190,19 +189,19 @@ core:
       read_heading: Lettura
       rename_discussions_label: Rinominare le discussioni
       reply_to_discussions_label: Rispondere alle discussioni
+      search_users_label: Cercare utenti
       sign_up_label: Registrazione
       start_discussions_label: Iniziare una discussione
       title: Permessi
       view_hidden_groups_label: Visualizzare i badge dei gruppi nascosti
       view_discussions_label: Leggere le discussioni
       view_last_seen_at_label: Vedere l'ultimo accesso di un utente
-      view_post_ips_label: Visualizzare indirizzi IP di un messaggio
       view_user_list_label: Visualizzare la lista utenti
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Indefinitamente
-      allow_some_minutes_button: "Per {count} minuto|Per {count} minuti"
+      allow_some_minutes_button: "{count, plural, one {Per # minuto} other {Per # minuti}}"
       allow_ten_minutes_button: Per 10 minuti
       allow_until_reply_button: Fino alla prossima risposta
       everyone_button: Tutti
@@ -212,6 +211,7 @@ core:
 
     # These translations are used in the Settings modal dialog.
     settings:
+      saved_message: Modifiche salvate.
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
@@ -219,22 +219,62 @@ core:
       remove_button: => core.ref.remove
       upload_button: Scegli un'immagine...
 
+    # These translations are used for the users list on the admin dashboard.
+    users:
+      description: Un elecon di tutti gli utenti del tuo forum.
+
+      grid:
+        columns:
+          edit_user:
+            button: => core.ref.edit
+            title: => core.ref.edit_user
+            tooltip: Modifica {username}
+
+          email:
+            title: => core.ref.email
+            visibility_hide: Nascondi indirizzo email
+            visibility_show: Mostra indirizzo email
+
+          group_badges:
+            no_badges: Nessuno
+            title: Gruppi
+
+          join_time:
+            title: Iscritto
+
+          user_id:
+            title: ID
+
+          username:
+            profile_link_tooltip: Visita il profilo di {username}
+            title: => core.ref.username
+
+        invalid_column_content: Non valido
+
+      pagination:
+        back_button: Pagina precedente
+        next_button: Pagina successiva
+        page_counter: Pagina {current} di {total}
+
+      title: => core.ref.users
+      total_users: "Utenti: {count}"
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: La password è errata.
+      incorrect_password_message: La password inserita non è valida.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Cambia Password
-      text: Clicca sul pulsante qui sotto per ricevere una e-mail e cambiare password
+      text: Clicca il pulsante per ricevere una e-mail per cambiare password
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -274,12 +314,13 @@ core:
       cannot_reply_button: Non puoi rispondere
       cannot_reply_text: Non hai il permesso di rispondere a questa discussione.
       delete_button: => core.ref.delete
-      delete_confirmation: "Sei sicuro di voler cancellare questa discussione? Questa azione è irreversibile."
+      delete_confirmation: "Sei sicuro di voler cancellare questa discussione?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Rispondi
+      log_in_to_reply_button: Accedi per rispondere
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Attiva / Disattiva il dropdown delle azioni nella discussione
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -288,20 +329,6 @@ core:
       mark_as_read_tooltip: Segna come letto
       replied_text: "{username} ha risposto {ago}"
       started_text: "Iniziata da {username} {ago}"
-
-    # These translations are used in the Edit User modal dialog (admin function).
-    edit_user:
-      activate_button: Attiva utente
-      email_heading: => core.ref.email
-      email_label: => core.ref.email
-      groups_heading: Gruppi
-      password_heading: => core.ref.password
-      password_label: => core.ref.password
-      set_password_label: Imposta nuova password
-      submit_button: => core.ref.save_changes
-      title: Modifica utente
-      username_heading: => core.ref.username
-      username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
@@ -317,10 +344,12 @@ core:
     header:
       admin_button: Amministrazione
       back_to_index_tooltip: "Torna all'elenco delle discussioni"
+      locale_dropdown_accessible_label: Cambia lingua del forum
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profilo
       search_placeholder: Cerca...
+      session_dropdown_accessible_label: Attiva / Disattiva il dropdown delle opzioni sessione
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -333,6 +362,7 @@ core:
       meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Aggiorna
       start_discussion_button: => core.ref.start_a_discussion
+      toggle_sidenav_dropdown_accessible_label: Attiva / Disattiva dropdown di navigazione
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -340,6 +370,7 @@ core:
       newest_button: Nuove
       oldest_button: Vecchie
       relevance_button: Rilevanti
+      toggle_dropdown_accessible_label: Cambia ordinamento
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
@@ -360,6 +391,7 @@ core:
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Segna come letto
       title: Notifiche
+      toggle_dropdown_accessible_label: Mostra notifiche
       tooltip: Notifiche
 
     # These translations are used by tooltips displayed for individual posts.
@@ -376,13 +408,14 @@ core:
       edit_button: => core.ref.edit
       hide_confirmation: "Sei sicuro di volere cancellare questa discussione?"
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Attiva / Disattiva il dropdown di controllo dei post
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Ora
       original_post_link: Messaggio originale
       unread_text: "{count} non letti"
-      viewing_text: "{index} di {count} messaggio|{index} di {count} messaggi"
+      viewing_text: "{count, plural, one {{index} di {formattedCount} messaggio} other {{index} di {formattedCount} messaggi}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -449,6 +482,7 @@ core:
       delete_error_message: "Cancellazione dell'utente <i>{username} ({email})</i> fallito"
       delete_success_message: "L'utente <i>{username} ({email})</i> è stato cancellato"
       edit_button: => core.ref.edit
+      toggle_dropdown_accessible_label: Attiva / Disattiva dropdown controlli utente
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
@@ -463,6 +497,24 @@ core:
     badge:
       hidden_tooltip: Nascosto
 
+    # These translations are used in the dropdown component.
+    dropdown:
+      toggle_dropdown_accessible_label: Attiva / Disattiva dropdown
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: Attiva utente
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: Gruppi
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: Imposta nuova password
+      submit_button: => core.ref.save_changes
+      title: Modifica utente
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+
     # These translations are displayed as error messages.
     error:
       dependent_extensions_message: "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}"
@@ -471,6 +523,10 @@ core:
       not_found_message: La risorsa richiesta non è stata trovata.
       permission_denied_message: Non hai il permesso di farlo.
       rate_limit_exceeded_message: Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo.
+
+    # These translations are used in the loading indicator component.
+    loading_indicator:
+      accessible_label: => core.ref.loading
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -585,6 +641,10 @@ core:
 
         Questa è un'email di prova per confermarti che l'attuale configurazione sta funzionando correttamente.
 
+        Se sei tu, questa email significa che la configurazione attuale funziona!
+
+        Se non sei tu, ignora questa email.
+
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
@@ -605,15 +665,17 @@ core:
     delete_forever: Cancella per sempre
     discussions: Discussioni # Referenced by flarum-statistics.yml
     edit: Modifica
+    edit_user: Modifica utente
     email: E-mail
     icon: Icona
     icon_text: "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>."
     load_more: Carica di più
+    loading: Caricamento...
     log_in: Accedi
     log_out: Esci
     mark_all_as_read: Segna tutto come letto
     next_page: Pagina successiva
-    notifications: Notificami se...
+    notifications: Notifiche
     okay: OK # Referenced by flarum-tags.yml
     password: Password
     posts: Messaggi # Referenced by flarum-statistics.yml
@@ -626,7 +688,7 @@ core:
     save_changes: Salva cambiamenti # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Impostazioni
     sign_up: Registrati
-    some_others: "{count} altro|{count} altri" # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count, plural, one {# altro} other {# altri}}" # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Inizia una discussione
     username: Nome utente
     users: Utenti # Referenced by flarum-statistics.yml
