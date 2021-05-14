@@ -139,7 +139,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Caricamento...
+      title: => core.ref.loading
 
     # These translations are used in the navigation bar.
     nav:
@@ -193,10 +193,10 @@ core:
       sign_up_label: Registrazione
       start_discussions_label: Iniziare una discussione
       title: Permessi
+      view_forum_label: Vedere il forum (discussioni e utenti)
       view_hidden_groups_label: Visualizzare i badge dei gruppi nascosti
-      view_discussions_label: Leggere le discussioni
       view_last_seen_at_label: Vedere l'ultimo accesso di un utente
-      view_user_list_label: Visualizzare la lista utenti
+      view_post_ips_label: Vedere gli indirizzi IP dei post
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -221,7 +221,7 @@ core:
 
     # These translations are used for the users list on the admin dashboard.
     users:
-      description: Un elecon di tutti gli utenti del tuo forum.
+      description: Un elenco di tutti gli utenti del tuo forum.
 
       grid:
         columns:
@@ -390,9 +390,9 @@ core:
       empty_text: Non ci sono notifiche
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Segna come letto
-      title: Notifiche
+      title: => core.ref.notifications
       toggle_dropdown_accessible_label: Mostra notifiche
-      tooltip: Notifiche
+      tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
@@ -427,8 +427,8 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rinomina discussione
       submit_button: => core.ref.rename
+      title: Rinomina discussione
 
     # These translations are used by the search results dropdown list.
     search:
@@ -470,8 +470,8 @@ core:
       joined_date_text: "Si è iscritto {ago}"
       online_text: Online
       posts_empty_text: Non ci sono messaggi.
-      posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -511,7 +511,7 @@ core:
       password_label: => core.ref.password
       set_password_label: Imposta nuova password
       submit_button: => core.ref.save_changes
-      title: Modifica utente
+      title: => core.ref.edit_user
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -550,7 +550,7 @@ core:
     content:
       javascript_disabled_message: Questo sito è ottimizzato per un browser moderno con JavaScript abilitato.
       load_error_message: Qualcosa è andato storto durante il tentativo di caricare la versione completa di questo sito.
-      loading_text: Caricamento...
+      loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
