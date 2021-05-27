@@ -94,7 +94,7 @@ flarum-tags:
       added_tags_text: "{username} ha aggiunto {tagsAdded}."
       added_and_removed_tags_text: "{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved}."
       removed_tags_text: "{username} ha rimosso {tagsRemoved}."
-      tags_text: "{count, plural, one {l'etichetta #} other {le etichette #}}"
+      tags_text: "{count, plural, one {l'etichetta {tags}} other {le etichette {tags}}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
