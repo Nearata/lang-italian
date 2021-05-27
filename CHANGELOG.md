@@ -61,11 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (Changed) Period added to stop line in validation messages
 - (Changed) Improved flarum/flags translations
 - (Changed) Updated validations
-
-### Removed
-
-- Keys for mandrill email driver
-- Keys for SES email driver
+- (Removed) Keys for mandrill email driver
+- (Removed) Keys for SES email driver
 
 ## [0.1.0-beta.13] - 2020-06-25
 
@@ -86,7 +83,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated to beta 9
 - (Add) Missing translations
 - (Improved) Core translations
-- (Improved) Icon
+- (Improved) Extension icon
 - (Removed) All non-core translations
 
 ## [0.1.0-beta.8.2] - 2018-11-30
