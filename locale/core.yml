@@ -240,7 +240,7 @@ core:
             title: Gruppi
 
           join_time:
-            title: Iscritto
+            title: Data iscrizione
 
           user_id:
             title: ID
