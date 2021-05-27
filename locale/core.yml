@@ -25,9 +25,9 @@ core:
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Inserisci un codice colore esadecimale
       favicon_heading: Favicon
-      favicon_text: Carica un'immagine da utilizzare come favicon del sito
+      favicon_text: Carica un'immagine da utilizzare come favicon del sito.
       logo_heading: Logo
-      logo_text: Carica un'immagine da utilizzare al posto del nome del forum
+      logo_text: Carica un'immagine da utilizzare al posto del nome del forum.
       title: Aspetto
 
     # These translations are used in the Basics page.
@@ -91,7 +91,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Indirizzi
-      description: Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail
+      description: Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail.
       driver_heading: Seleziona Driver
       driver_label: Driver
       from_label: Mittente
@@ -108,7 +108,7 @@ core:
       send_test_mail_button: Invia
       send_test_mail_heading: Invia email di prova
       send_test_mail_success: Email di prova inviata con successo!
-      send_test_mail_text: This will send an email using the above configuration to your email, {email}.
+      send_test_mail_text: Questo bottone invierà una email all'indirizzo <strong>{email}</strong>, usando la configurazione attuale.
       smtp_heading: Impostazioni SMTP
       title: => core.ref.email
 
@@ -467,7 +467,7 @@ core:
       avatar_upload_tooltip: Carica un avatar
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Si è iscritto {ago}"
+      joined_date_text: "Membro da {ago}"
       online_text: Online
       posts_empty_text: Non ci sono messaggi.
       posts_link: => core.ref.posts
@@ -657,7 +657,7 @@ core:
     color: Colore # Referenced by flarum-tags.yml
     confirm_password: Conferma password
     confirmation_email_sent: "Abbiamo inviato una e-mail di conferma a {email}. Ricordati di controllare la cartella spam."
-    custom_footer_text: Aggiungi codice HTML nella parte inferiore della pagina
+    custom_footer_text: Aggiungi codice HTML nella parte inferiore della pagina.
     custom_footer_title: Modifica footer
     custom_header_text: "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum."
     custom_header_title: Modifica header
