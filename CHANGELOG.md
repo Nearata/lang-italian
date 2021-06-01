@@ -7,7 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[changes](https://github.com/Nearata/lang-italian/compare/v1.0.0...main)
+[changes](https://github.com/Nearata/lang-italian/compare/v1.1.0...main)
+
+## [1.1.0] - 2021-06-01
+
+- (Add) Missing keys
+- (Improved) Punctuation
 
 ## [1.0.0] - 2021-05-27
 
@@ -201,7 +206,8 @@ First release
 
 ## Changes
 
-- [v0.1.0-beta.16...v1.0](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.16...v1.0.0)
+- [v1.0.0...v1.1.0](https://github.com/Nearata/lang-italian/compare/v1.0.0...v1.1.0)
+- [v0.1.0-beta.16...v1.0.0](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.16...v1.0.0)
 - [v0.1.0-beta.15.2...v0.1.0-beta.16](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.15.2...v0.1.0-beta.16)
 - [v0.1.0-beta.15.1...v0.1.0-beta.15.2](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.15.1...v0.1.0-beta.15.2)
 - [v0.1.0-beta.15...v0.1.0-beta.15.1](https://github.com/Nearata/lang-italian/compare/v0.1.0-beta.15...v0.1.0-beta.15.1)
