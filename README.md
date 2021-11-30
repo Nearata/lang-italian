@@ -26,13 +26,6 @@ php flarum cache:clear
 
 See [TRANSLATIONS.md](TRANSLATIONS.md) to see the list of supported extensions.
 
-## License
+## Unlicense
 
-Distributed under the MIT license. See [LICENSE](LICENSE) for details.
-
-## Contributing
-
-1. Fork it
-2. Commit your changes
-3. Push to the branch
-4. Create a new Pull Request
+See [UNLICENSE](UNLICENSE) for details.
