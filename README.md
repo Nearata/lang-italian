@@ -2,6 +2,10 @@
 
 > A [Flarum](https://flarum.org) extension that translate the core, its bundled extensions and libraries.
 
+## WARNING
+
+No longer mantained. Please use [flarum-lang/italian](https://github.com/flarum-lang/italian).
+
 ## Install
 
 ```shell
